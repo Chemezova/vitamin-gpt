@@ -1,0 +1,1907 @@
+{
+  "meta": {
+    "dataset": "markers",
+    "source": "02-product/data/markers.yaml",
+    "source_sha256": "e7187c2d1d9d12bf",
+    "in_v1": true,
+    "note": "Показатели и самозамеры"
+  },
+  "data": {
+    "version": 3,
+    "updated": "2026-08-23",
+    "status": "validated",
+    "verified_by_pharmacist": true,
+    "mvp_scope": "supplement_responsive",
+    "markers": [
+      {
+        "key": "vitamin_d",
+        "display": {
+          "en": "Vitamin D (25-OH)",
+          "ru": "Витамин D (25-OH)"
+        },
+        "aliases": {
+          "en": [
+            "25-OH vitamin D",
+            "25(OH)D",
+            "vit D",
+            "calcidiol",
+            "cholecalciferol metabolite"
+          ],
+          "ru": [
+            "25-ОН витамин D",
+            "витамин Д",
+            "кальцидиол",
+            "25-гидроксивитамин D"
+          ]
+        },
+        "specimen": "serum",
+        "canonical_unit": "nmol/L",
+        "default_unit_by_region": {
+          "US": "ng/mL",
+          "EU": "nmol/L",
+          "RU": "ng/mL",
+          "other": "nmol/L"
+        },
+        "units": [
+          {
+            "code": "ng/mL",
+            "to_canonical": 2.496
+          },
+          {
+            "code": "nmol/L",
+            "to_canonical": 1.0
+          },
+          {
+            "code": "ug/L",
+            "to_canonical": 2.496
+          }
+        ],
+        "plausible_range_canonical": [
+          5,
+          750
+        ]
+      },
+      {
+        "key": "vitamin_b12",
+        "display": {
+          "en": "Vitamin B12",
+          "ru": "Витамин B12"
+        },
+        "aliases": {
+          "en": [
+            "cobalamin",
+            "B12",
+            "cyanocobalamin",
+            "methylcobalamin"
+          ],
+          "ru": [
+            "кобаламин",
+            "Б12",
+            "цианокобаламин",
+            "метилкобаламин"
+          ]
+        },
+        "specimen": "serum",
+        "canonical_unit": "pmol/L",
+        "default_unit_by_region": {
+          "US": "pg/mL",
+          "EU": "pmol/L",
+          "RU": "pg/mL",
+          "other": "pmol/L"
+        },
+        "units": [
+          {
+            "code": "pg/mL",
+            "to_canonical": 0.738
+          },
+          {
+            "code": "pmol/L",
+            "to_canonical": 1.0
+          },
+          {
+            "code": "ng/L",
+            "to_canonical": 0.738
+          }
+        ],
+        "plausible_range_canonical": [
+          20,
+          10000
+        ]
+      },
+      {
+        "key": "folate",
+        "display": {
+          "en": "Folate (Vitamin B9)",
+          "ru": "Фолаты (витамин B9)"
+        },
+        "aliases": {
+          "en": [
+            "folic acid",
+            "vitamin B9",
+            "serum folate"
+          ],
+          "ru": [
+            "фолиевая кислота",
+            "витамин B9",
+            "фолат сыворотки"
+          ]
+        },
+        "specimen": "serum",
+        "canonical_unit": "nmol/L",
+        "default_unit_by_region": {
+          "US": "ng/mL",
+          "EU": "nmol/L",
+          "RU": "ng/mL",
+          "other": "nmol/L"
+        },
+        "units": [
+          {
+            "code": "ng/mL",
+            "to_canonical": 2.266
+          },
+          {
+            "code": "nmol/L",
+            "to_canonical": 1.0
+          },
+          {
+            "code": "ug/L",
+            "to_canonical": 2.266
+          }
+        ],
+        "plausible_range_canonical": [
+          1,
+          250
+        ]
+      },
+      {
+        "key": "rbc_folate",
+        "display": {
+          "en": "RBC Folate",
+          "ru": "Фолаты в эритроцитах"
+        },
+        "aliases": {
+          "en": [
+            "red blood cell folate",
+            "erythrocyte folate",
+            "RBC folic acid"
+          ],
+          "ru": [
+            "фолаты эритроцитов",
+            "эритроцитарные фолаты",
+            "фолиевая кислота в эритроцитах"
+          ]
+        },
+        "specimen": "rbc",
+        "canonical_unit": "nmol/L",
+        "default_unit_by_region": {
+          "US": "ng/mL",
+          "EU": "nmol/L",
+          "RU": "ng/mL",
+          "other": "nmol/L"
+        },
+        "units": [
+          {
+            "code": "ng/mL",
+            "to_canonical": 2.266
+          },
+          {
+            "code": "nmol/L",
+            "to_canonical": 1.0
+          },
+          {
+            "code": "ug/L",
+            "to_canonical": 2.266
+          }
+        ],
+        "plausible_range_canonical": [
+          50,
+          5000
+        ],
+        "review_status": "pending",
+        "note": "Отдельный ключ от folate: другой specimen, другой порядок величин. На один график с сывороточными не кладём."
+      },
+      {
+        "key": "vitamin_b6",
+        "display": {
+          "en": "Vitamin B6 (PLP)",
+          "ru": "Витамин B6 (пиридоксальфосфат)"
+        },
+        "aliases": {
+          "en": [
+            "pyridoxal 5-phosphate",
+            "PLP",
+            "P5P",
+            "pyridoxine",
+            "vitamin B-6"
+          ],
+          "ru": [
+            "пиридоксальфосфат",
+            "пиридоксаль-5-фосфат",
+            "витамин В6",
+            "пиридоксин"
+          ]
+        },
+        "specimen": "plasma",
+        "canonical_unit": "nmol/L",
+        "default_unit_by_region": {
+          "US": "ug/L",
+          "EU": "nmol/L",
+          "RU": "nmol/L",
+          "other": "nmol/L"
+        },
+        "units": [
+          {
+            "code": "nmol/L",
+            "to_canonical": 1.0
+          },
+          {
+            "code": "ug/L",
+            "to_canonical": 4.046
+          },
+          {
+            "code": "ng/mL",
+            "to_canonical": 4.046
+          }
+        ],
+        "plausible_range_canonical": [
+          1,
+          5000
+        ],
+        "review_status": "pending",
+        "note": "M(PLP) = 247,14. Верхняя граница намеренно высокая: у принимающих B6 длительно значения бывают на порядок выше типичных, и подсказка про опечатку тут не нужна."
+      },
+      {
+        "key": "biotin",
+        "display": {
+          "en": "Biotin (Vitamin B7)",
+          "ru": "Биотин (витамин B7)"
+        },
+        "aliases": {
+          "en": [
+            "vitamin B7",
+            "vitamin H",
+            "serum biotin",
+            "d-biotin"
+          ],
+          "ru": [
+            "витамин B7",
+            "витамин H",
+            "биотин сыворотки",
+            "витамин Н"
+          ]
+        },
+        "specimen": "serum",
+        "canonical_unit": "nmol/L",
+        "default_unit_by_region": {
+          "US": "ng/mL",
+          "EU": "nmol/L",
+          "RU": "nmol/L",
+          "other": "nmol/L"
+        },
+        "units": [
+          {
+            "code": "nmol/L",
+            "to_canonical": 1.0
+          },
+          {
+            "code": "ng/mL",
+            "to_canonical": 4.093
+          },
+          {
+            "code": "ug/L",
+            "to_canonical": 4.093
+          },
+          {
+            "code": "pmol/L",
+            "to_canonical": 0.001
+          }
+        ],
+        "plausible_range_canonical": [
+          0.1,
+          20000
+        ],
+        "review_status": "pending",
+        "note": "M(биотин) = 244,31. Решение Елены 23.08: добавить. Сам по себе анализ заказывают редко, и держим мы его не ради популярности, а ради связи: биотин — единственный нутриент в библиотеке, который влияет не на организм, а на ДОСТОВЕРНОСТЬ соседних показателей. См. поле interference у tsh, free_t4, free_t3. Верхняя граница намеренно огромная: на дозах БАД значения на порядки выше фоновых, и подсказка про опечатку тут только мешает."
+      },
+      {
+        "key": "homocysteine",
+        "display": {
+          "en": "Homocysteine",
+          "ru": "Гомоцистеин"
+        },
+        "aliases": {
+          "en": [
+            "Hcy",
+            "total homocysteine",
+            "tHcy"
+          ],
+          "ru": [
+            "гомоцистеин общий",
+            "Hcy"
+          ]
+        },
+        "specimen": "plasma",
+        "canonical_unit": "umol/L",
+        "default_unit_by_region": {
+          "US": "umol/L",
+          "EU": "umol/L",
+          "RU": "umol/L",
+          "other": "umol/L"
+        },
+        "units": [
+          {
+            "code": "umol/L",
+            "to_canonical": 1.0
+          },
+          {
+            "code": "mg/L",
+            "to_canonical": 7.397
+          }
+        ],
+        "plausible_range_canonical": [
+          1,
+          200
+        ]
+      },
+      {
+        "key": "omega3_index",
+        "display": {
+          "en": "Omega-3 Index",
+          "ru": "Омега-3 индекс"
+        },
+        "aliases": {
+          "en": [
+            "O3I",
+            "EPA+DHA index",
+            "Omega 3 in RBC"
+          ],
+          "ru": [
+            "индекс омега-3",
+            "ЭПК+ДГК",
+            "омега 3 в эритроцитах"
+          ]
+        },
+        "specimen": "rbc",
+        "canonical_unit": "%",
+        "default_unit_by_region": {
+          "US": "%",
+          "EU": "%",
+          "RU": "%",
+          "other": "%"
+        },
+        "units": [
+          {
+            "code": "%",
+            "to_canonical": 1.0
+          }
+        ],
+        "plausible_range_canonical": [
+          0.5,
+          30
+        ]
+      },
+      {
+        "key": "ferritin",
+        "display": {
+          "en": "Ferritin",
+          "ru": "Ферритин"
+        },
+        "aliases": {
+          "en": [
+            "serum ferritin",
+            "iron stores"
+          ],
+          "ru": [
+            "ферритин сыворотки",
+            "депо железа"
+          ]
+        },
+        "specimen": "serum",
+        "canonical_unit": "ug/L",
+        "default_unit_by_region": {
+          "US": "ng/mL",
+          "EU": "ug/L",
+          "RU": "ng/mL",
+          "other": "ug/L"
+        },
+        "units": [
+          {
+            "code": "ng/mL",
+            "to_canonical": 1.0
+          },
+          {
+            "code": "ug/L",
+            "to_canonical": 1.0
+          },
+          {
+            "code": "pmol/L",
+            "to_canonical": 0.445
+          }
+        ],
+        "plausible_range_canonical": [
+          1,
+          5000
+        ],
+        "note": "Потолок 5000 возвращён из v1: в v2 он был сужен до 3000, а реальные значения выше 3000 существуют. Подсказка про опечатку на честной цифре хуже, чем её отсутствие."
+      },
+      {
+        "key": "serum_iron",
+        "display": {
+          "en": "Serum Iron",
+          "ru": "Железо сыворотки"
+        },
+        "aliases": {
+          "en": [
+            "iron",
+            "Fe",
+            "serum Fe"
+          ],
+          "ru": [
+            "железо сыворотки",
+            "железо в крови",
+            "сывороточное железо"
+          ]
+        },
+        "specimen": "serum",
+        "canonical_unit": "umol/L",
+        "default_unit_by_region": {
+          "US": "ug/dL",
+          "EU": "umol/L",
+          "RU": "umol/L",
+          "other": "umol/L"
+        },
+        "units": [
+          {
+            "code": "umol/L",
+            "to_canonical": 1.0
+          },
+          {
+            "code": "ug/dL",
+            "to_canonical": 0.1791
+          },
+          {
+            "code": "mg/L",
+            "to_canonical": 17.91
+          }
+        ],
+        "plausible_range_canonical": [
+          1,
+          100
+        ]
+      },
+      {
+        "key": "tibc",
+        "display": {
+          "en": "TIBC",
+          "ru": "ОЖСС"
+        },
+        "aliases": {
+          "en": [
+            "total iron-binding capacity",
+            "TIBC"
+          ],
+          "ru": [
+            "общая железосвязывающая способность сыворотки",
+            "ОЖСС"
+          ]
+        },
+        "specimen": "serum",
+        "canonical_unit": "umol/L",
+        "default_unit_by_region": {
+          "US": "ug/dL",
+          "EU": "umol/L",
+          "RU": "umol/L",
+          "other": "umol/L"
+        },
+        "units": [
+          {
+            "code": "umol/L",
+            "to_canonical": 1.0
+          },
+          {
+            "code": "ug/dL",
+            "to_canonical": 0.1791
+          }
+        ],
+        "plausible_range_canonical": [
+          10,
+          200
+        ]
+      },
+      {
+        "key": "transferrin_saturation",
+        "display": {
+          "en": "Transferrin Saturation",
+          "ru": "Насыщение трансферрина"
+        },
+        "aliases": {
+          "en": [
+            "TSAT",
+            "iron saturation",
+            "% saturation",
+            "transferrin sat"
+          ],
+          "ru": [
+            "коэффициент насыщения трансферрина",
+            "НТЖ",
+            "процент насыщения"
+          ]
+        },
+        "specimen": "serum",
+        "canonical_unit": "%",
+        "default_unit_by_region": {
+          "US": "%",
+          "EU": "%",
+          "RU": "%",
+          "other": "%"
+        },
+        "units": [
+          {
+            "code": "%",
+            "to_canonical": 1.0
+          }
+        ],
+        "plausible_range_canonical": [
+          0.5,
+          100
+        ],
+        "review_status": "pending",
+        "note": "В бланках США печатается почти всегда, у нас его не было. Расчётный показатель — принимаем как введённое число, сами не вычисляем."
+      },
+      {
+        "key": "hemoglobin",
+        "display": {
+          "en": "Hemoglobin",
+          "ru": "Гемоглобин"
+        },
+        "aliases": {
+          "en": [
+            "Hb",
+            "Hgb",
+            "total hemoglobin"
+          ],
+          "ru": [
+            "гемоглобин",
+            "Hb",
+            "HGB"
+          ]
+        },
+        "specimen": "whole_blood",
+        "canonical_unit": "g/L",
+        "default_unit_by_region": {
+          "US": "g/dL",
+          "EU": "g/L",
+          "RU": "g/L",
+          "other": "g/L"
+        },
+        "units": [
+          {
+            "code": "g/L",
+            "to_canonical": 1.0
+          },
+          {
+            "code": "g/dL",
+            "to_canonical": 10.0
+          }
+        ],
+        "plausible_range_canonical": [
+          30,
+          250
+        ]
+      },
+      {
+        "key": "hematocrit",
+        "display": {
+          "en": "Hematocrit",
+          "ru": "Гематокрит"
+        },
+        "aliases": {
+          "en": [
+            "HCT",
+            "crit",
+            "packed cell volume",
+            "PCV"
+          ],
+          "ru": [
+            "гематокрит",
+            "Ht",
+            "HCT"
+          ]
+        },
+        "specimen": "whole_blood",
+        "canonical_unit": "%",
+        "default_unit_by_region": {
+          "US": "%",
+          "EU": "L/L",
+          "RU": "%",
+          "other": "%"
+        },
+        "units": [
+          {
+            "code": "%",
+            "to_canonical": 1.0
+          },
+          {
+            "code": "L/L",
+            "to_canonical": 100.0
+          }
+        ],
+        "plausible_range_canonical": [
+          10,
+          75
+        ]
+      },
+      {
+        "key": "mcv",
+        "display": {
+          "en": "MCV",
+          "ru": "MCV (средний объём эритроцита)"
+        },
+        "aliases": {
+          "en": [
+            "mean corpuscular volume",
+            "MCV"
+          ],
+          "ru": [
+            "средний объем эритроцита",
+            "MCV"
+          ]
+        },
+        "specimen": "whole_blood",
+        "canonical_unit": "fL",
+        "default_unit_by_region": {
+          "US": "fL",
+          "EU": "fL",
+          "RU": "fL",
+          "other": "fL"
+        },
+        "units": [
+          {
+            "code": "fL",
+            "to_canonical": 1.0
+          },
+          {
+            "code": "um^3",
+            "to_canonical": 1.0
+          }
+        ],
+        "plausible_range_canonical": [
+          40.0,
+          150.0
+        ]
+      },
+      {
+        "key": "magnesium_serum",
+        "display": {
+          "en": "Magnesium (Serum)",
+          "ru": "Магний сыворотки"
+        },
+        "aliases": {
+          "en": [
+            "serum magnesium",
+            "Mg",
+            "serum Mg"
+          ],
+          "ru": [
+            "магний",
+            "магний в сыворотке",
+            "Mg сыворотки"
+          ]
+        },
+        "specimen": "serum",
+        "canonical_unit": "mmol/L",
+        "default_unit_by_region": {
+          "US": "mg/dL",
+          "EU": "mmol/L",
+          "RU": "mmol/L",
+          "other": "mmol/L"
+        },
+        "units": [
+          {
+            "code": "mmol/L",
+            "to_canonical": 1.0
+          },
+          {
+            "code": "mg/dL",
+            "to_canonical": 0.4114
+          },
+          {
+            "code": "mEq/L",
+            "to_canonical": 0.5
+          }
+        ],
+        "plausible_range_canonical": [
+          0.2,
+          5.0
+        ]
+      },
+      {
+        "key": "magnesium_rbc",
+        "display": {
+          "en": "RBC Magnesium",
+          "ru": "Магний в эритроцитах"
+        },
+        "aliases": {
+          "en": [
+            "erythrocyte magnesium",
+            "red blood cell magnesium",
+            "RBC Mg"
+          ],
+          "ru": [
+            "магний эритроцитов",
+            "эритроцитарный магний"
+          ]
+        },
+        "specimen": "rbc",
+        "canonical_unit": "mmol/L",
+        "default_unit_by_region": {
+          "US": "mg/dL",
+          "EU": "mmol/L",
+          "RU": "mmol/L",
+          "other": "mmol/L"
+        },
+        "units": [
+          {
+            "code": "mmol/L",
+            "to_canonical": 1.0
+          },
+          {
+            "code": "mg/dL",
+            "to_canonical": 0.4114
+          }
+        ],
+        "plausible_range_canonical": [
+          0.5,
+          6.0
+        ],
+        "note": "Единица «umol/g Hb» из v2 убрана: перевод микромолей на грамм гемоглобина в ммоль/л невозможен фиксированным коэффициентом — нужна концентрация гемоглобина конкретного человека, а её у нас нет. Такое значение принимается как показатель вне библиотеки."
+      },
+      {
+        "key": "zinc",
+        "display": {
+          "en": "Zinc",
+          "ru": "Цинк сыворотки"
+        },
+        "aliases": {
+          "en": [
+            "serum zinc",
+            "Zn",
+            "plasma zinc"
+          ],
+          "ru": [
+            "цинк в сыворотке",
+            "Zn сыворотки",
+            "цинк крови"
+          ]
+        },
+        "specimen": "serum",
+        "canonical_unit": "umol/L",
+        "default_unit_by_region": {
+          "US": "ug/dL",
+          "EU": "umol/L",
+          "RU": "umol/L",
+          "other": "umol/L"
+        },
+        "units": [
+          {
+            "code": "umol/L",
+            "to_canonical": 1.0
+          },
+          {
+            "code": "ug/dL",
+            "to_canonical": 0.153
+          },
+          {
+            "code": "ug/mL",
+            "to_canonical": 15.3
+          },
+          {
+            "code": "mg/L",
+            "to_canonical": 15.3
+          }
+        ],
+        "plausible_range_canonical": [
+          1.0,
+          80.0
+        ]
+      },
+      {
+        "key": "copper",
+        "display": {
+          "en": "Copper",
+          "ru": "Медь сыворотки"
+        },
+        "aliases": {
+          "en": [
+            "serum copper",
+            "Cu",
+            "total copper"
+          ],
+          "ru": [
+            "медь в сыворотке",
+            "Cu сыворотки",
+            "общая медь"
+          ]
+        },
+        "specimen": "serum",
+        "canonical_unit": "umol/L",
+        "default_unit_by_region": {
+          "US": "ug/dL",
+          "EU": "umol/L",
+          "RU": "umol/L",
+          "other": "umol/L"
+        },
+        "units": [
+          {
+            "code": "umol/L",
+            "to_canonical": 1.0
+          },
+          {
+            "code": "ug/dL",
+            "to_canonical": 0.1574
+          },
+          {
+            "code": "ug/mL",
+            "to_canonical": 15.74
+          },
+          {
+            "code": "mg/L",
+            "to_canonical": 15.74
+          }
+        ],
+        "plausible_range_canonical": [
+          1.0,
+          80.0
+        ]
+      },
+      {
+        "key": "selenium",
+        "display": {
+          "en": "Selenium",
+          "ru": "Селен сыворотки"
+        },
+        "aliases": {
+          "en": [
+            "serum selenium",
+            "Se",
+            "plasma selenium"
+          ],
+          "ru": [
+            "селен в сыворотке",
+            "Se сыворотки",
+            "селен крови"
+          ]
+        },
+        "specimen": "serum",
+        "canonical_unit": "umol/L",
+        "default_unit_by_region": {
+          "US": "ug/L",
+          "EU": "umol/L",
+          "RU": "ug/L",
+          "other": "umol/L"
+        },
+        "units": [
+          {
+            "code": "umol/L",
+            "to_canonical": 1.0
+          },
+          {
+            "code": "ug/L",
+            "to_canonical": 0.01266
+          },
+          {
+            "code": "ug/mL",
+            "to_canonical": 12.66
+          }
+        ],
+        "plausible_range_canonical": [
+          0.1,
+          10.0
+        ]
+      },
+      {
+        "key": "iodine_urine",
+        "display": {
+          "en": "Iodine (Urine)",
+          "ru": "Йод в моче"
+        },
+        "aliases": {
+          "en": [
+            "urinary iodine",
+            "UIC",
+            "iodine concentration",
+            "spot urine iodine"
+          ],
+          "ru": [
+            "йод мочи",
+            "экскреция йода",
+            "йод в разовой порции мочи"
+          ]
+        },
+        "specimen": "urine",
+        "canonical_unit": "ug/L",
+        "default_unit_by_region": {
+          "US": "ug/L",
+          "EU": "ug/L",
+          "RU": "ug/L",
+          "other": "ug/L"
+        },
+        "units": [
+          {
+            "code": "ug/L",
+            "to_canonical": 1.0
+          },
+          {
+            "code": "umol/L",
+            "to_canonical": 126.9
+          },
+          {
+            "code": "nmol/L",
+            "to_canonical": 0.1269
+          }
+        ],
+        "plausible_range_canonical": [
+          1,
+          5000
+        ],
+        "review_status": "pending",
+        "note": "M(I) = 126,90. Единственный показатель на моче — не сравнивать и не класть на один график с кровью. Разовая порция колеблется очень широко, поэтому границы правдоподобия намеренно почти не сужают."
+      },
+      {
+        "key": "calcium_total",
+        "display": {
+          "en": "Calcium (Total)",
+          "ru": "Кальций общий"
+        },
+        "aliases": {
+          "en": [
+            "serum calcium",
+            "total Ca",
+            "Ca"
+          ],
+          "ru": [
+            "кальций",
+            "общий кальций",
+            "Ca сыворотки"
+          ]
+        },
+        "specimen": "serum",
+        "canonical_unit": "mmol/L",
+        "default_unit_by_region": {
+          "US": "mg/dL",
+          "EU": "mmol/L",
+          "RU": "mmol/L",
+          "other": "mmol/L"
+        },
+        "units": [
+          {
+            "code": "mmol/L",
+            "to_canonical": 1.0
+          },
+          {
+            "code": "mg/dL",
+            "to_canonical": 0.2495
+          },
+          {
+            "code": "mEq/L",
+            "to_canonical": 0.5
+          }
+        ],
+        "plausible_range_canonical": [
+          1.0,
+          5.0
+        ]
+      },
+      {
+        "key": "potassium",
+        "display": {
+          "en": "Potassium",
+          "ru": "Калий сыворотки"
+        },
+        "aliases": {
+          "en": [
+            "serum potassium",
+            "K",
+            "potassium level"
+          ],
+          "ru": [
+            "калий",
+            "калий сыворотки",
+            "К"
+          ]
+        },
+        "specimen": "serum",
+        "canonical_unit": "mmol/L",
+        "default_unit_by_region": {
+          "US": "mEq/L",
+          "EU": "mmol/L",
+          "RU": "mmol/L",
+          "other": "mmol/L"
+        },
+        "units": [
+          {
+            "code": "mmol/L",
+            "to_canonical": 1.0
+          },
+          {
+            "code": "mEq/L",
+            "to_canonical": 1.0
+          }
+        ],
+        "plausible_range_canonical": [
+          1.5,
+          10.0
+        ]
+      },
+      {
+        "key": "tsh",
+        "display": {
+          "en": "TSH",
+          "ru": "ТТГ"
+        },
+        "aliases": {
+          "en": [
+            "thyroid stimulating hormone",
+            "thyrotropin",
+            "s-TSH"
+          ],
+          "ru": [
+            "тиреотропный гормон",
+            "тиротропин",
+            "ТТГ чувствительный"
+          ]
+        },
+        "specimen": "serum",
+        "canonical_unit": "mIU/L",
+        "default_unit_by_region": {
+          "US": "uIU/mL",
+          "EU": "mIU/L",
+          "RU": "mIU/L",
+          "other": "mIU/L"
+        },
+        "units": [
+          {
+            "code": "mIU/L",
+            "to_canonical": 1.0
+          },
+          {
+            "code": "uIU/mL",
+            "to_canonical": 1.0
+          },
+          {
+            "code": "mU/L",
+            "to_canonical": 1.0
+          }
+        ],
+        "plausible_range_canonical": [
+          0.001,
+          200
+        ],
+        "legal_note": "⚠️ О-17: карточка CHEat Sheets к этому показателю требует отдельной юрпроверки. Показатель называем, состояние — нет.",
+        "interference": [
+          {
+            "substance": "biotin",
+            "substance_marker_key": "biotin",
+            "kind": "assay_bias",
+            "method": "immunoassay",
+            "ui": false,
+            "source_needed": true,
+            "dev_note": "Направление смещения зависит от типа метода: иммунометрические («сэндвич») занижают, конкурентные завышают. ТТГ обычно сэндвич. ⚠️ Направление разработчику НЕ выводить и в тексте для человека не называть — это уже интерпретация его результата. Перед любым показом найти PMID через /find-source.",
+            "ui_text_draft": {
+              "en": "You logged biotin around this date. Some lab methods can be affected by biotin — your lab can tell you whether theirs is.",
+              "ru": "Рядом с этой датой отмечен приём биотина. Некоторые лабораторные методы к биотину чувствительны — уточните в своей лаборатории."
+            }
+          }
+        ]
+      },
+      {
+        "key": "free_t4",
+        "display": {
+          "en": "Free T4",
+          "ru": "Т4 свободный"
+        },
+        "aliases": {
+          "en": [
+            "free thyroxine",
+            "FT4"
+          ],
+          "ru": [
+            "свободный тироксин",
+            "СТ4",
+            "Т4 св"
+          ]
+        },
+        "specimen": "serum",
+        "canonical_unit": "pmol/L",
+        "default_unit_by_region": {
+          "US": "ng/dL",
+          "EU": "pmol/L",
+          "RU": "pmol/L",
+          "other": "pmol/L"
+        },
+        "units": [
+          {
+            "code": "pmol/L",
+            "to_canonical": 1.0
+          },
+          {
+            "code": "ng/dL",
+            "to_canonical": 12.87
+          },
+          {
+            "code": "ng/L",
+            "to_canonical": 1.287
+          }
+        ],
+        "plausible_range_canonical": [
+          1,
+          100
+        ],
+        "interference": [
+          {
+            "substance": "biotin",
+            "substance_marker_key": "biotin",
+            "kind": "assay_bias",
+            "method": "immunoassay",
+            "ui": false,
+            "source_needed": true,
+            "dev_note": "См. tsh. Конкурентные методы смещают в другую сторону, чем сэндвич-методы; направление человеку не называем.",
+            "ui_text_draft": {
+              "en": "You logged biotin around this date. Some lab methods can be affected by biotin — your lab can tell you whether theirs is.",
+              "ru": "Рядом с этой датой отмечен приём биотина. Некоторые лабораторные методы к биотину чувствительны — уточните в своей лаборатории."
+            }
+          }
+        ]
+      },
+      {
+        "key": "free_t3",
+        "display": {
+          "en": "Free T3",
+          "ru": "Т3 свободный"
+        },
+        "aliases": {
+          "en": [
+            "free triiodothyronine",
+            "FT3"
+          ],
+          "ru": [
+            "свободный трийодтиронин",
+            "СТ3",
+            "Т3 св"
+          ]
+        },
+        "specimen": "serum",
+        "canonical_unit": "pmol/L",
+        "default_unit_by_region": {
+          "US": "pg/mL",
+          "EU": "pmol/L",
+          "RU": "pmol/L",
+          "other": "pmol/L"
+        },
+        "units": [
+          {
+            "code": "pmol/L",
+            "to_canonical": 1.0
+          },
+          {
+            "code": "pg/mL",
+            "to_canonical": 1.536
+          }
+        ],
+        "plausible_range_canonical": [
+          0.5,
+          50
+        ],
+        "interference": [
+          {
+            "substance": "biotin",
+            "substance_marker_key": "biotin",
+            "kind": "assay_bias",
+            "method": "immunoassay",
+            "ui": false,
+            "source_needed": true,
+            "dev_note": "См. tsh. Конкурентные методы смещают в другую сторону, чем сэндвич-методы; направление человеку не называем.",
+            "ui_text_draft": {
+              "en": "You logged biotin around this date. Some lab methods can be affected by biotin — your lab can tell you whether theirs is.",
+              "ru": "Рядом с этой датой отмечен приём биотина. Некоторые лабораторные методы к биотину чувствительны — уточните в своей лаборатории."
+            }
+          }
+        ]
+      },
+      {
+        "key": "crp_hs",
+        "display": {
+          "en": "High-Sensitivity CRP",
+          "ru": "СРБ ультрачувствительный"
+        },
+        "aliases": {
+          "en": [
+            "hs-CRP",
+            "cardio CRP",
+            "C-reactive protein"
+          ],
+          "ru": [
+            "СРБ ультрачувствительный",
+            "С-реактивный белок",
+            "hs-CRP"
+          ]
+        },
+        "specimen": "serum",
+        "canonical_unit": "mg/L",
+        "default_unit_by_region": {
+          "US": "mg/L",
+          "EU": "mg/L",
+          "RU": "mg/L",
+          "other": "mg/L"
+        },
+        "units": [
+          {
+            "code": "mg/L",
+            "to_canonical": 1.0
+          },
+          {
+            "code": "mg/dL",
+            "to_canonical": 10.0
+          }
+        ],
+        "plausible_range_canonical": [
+          0.01,
+          150
+        ]
+      },
+      {
+        "key": "total_cholesterol",
+        "display": {
+          "en": "Total Cholesterol",
+          "ru": "Холестерин общий"
+        },
+        "aliases": {
+          "en": [
+            "cholesterol",
+            "total chol",
+            "TC"
+          ],
+          "ru": [
+            "холестерин",
+            "общий холестерин",
+            "ХС"
+          ]
+        },
+        "specimen": "serum",
+        "canonical_unit": "mmol/L",
+        "default_unit_by_region": {
+          "US": "mg/dL",
+          "EU": "mmol/L",
+          "RU": "mmol/L",
+          "other": "mmol/L"
+        },
+        "units": [
+          {
+            "code": "mmol/L",
+            "to_canonical": 1.0
+          },
+          {
+            "code": "mg/dL",
+            "to_canonical": 0.02586
+          }
+        ],
+        "plausible_range_canonical": [
+          1.0,
+          25.0
+        ]
+      },
+      {
+        "key": "ldl_cholesterol",
+        "display": {
+          "en": "LDL Cholesterol",
+          "ru": "Холестерин ЛПНП"
+        },
+        "aliases": {
+          "en": [
+            "LDL-C",
+            "low density lipoprotein"
+          ],
+          "ru": [
+            "ЛПНП",
+            "липопротеины низкой плотности",
+            "ХС ЛПНП"
+          ]
+        },
+        "specimen": "serum",
+        "canonical_unit": "mmol/L",
+        "default_unit_by_region": {
+          "US": "mg/dL",
+          "EU": "mmol/L",
+          "RU": "mmol/L",
+          "other": "mmol/L"
+        },
+        "units": [
+          {
+            "code": "mmol/L",
+            "to_canonical": 1.0
+          },
+          {
+            "code": "mg/dL",
+            "to_canonical": 0.02586
+          }
+        ],
+        "plausible_range_canonical": [
+          0.5,
+          20.0
+        ],
+        "note": "Синонимы «bad cholesterol» / «плохой холестерин» из v2 убраны: оценочное слово в подсказке автодополнения — это оценка показателя, а мы её не даём."
+      },
+      {
+        "key": "hdl_cholesterol",
+        "display": {
+          "en": "HDL Cholesterol",
+          "ru": "Холестерин ЛПВП"
+        },
+        "aliases": {
+          "en": [
+            "HDL-C",
+            "high density lipoprotein"
+          ],
+          "ru": [
+            "ЛПВП",
+            "липопротеины высокой плотности",
+            "ХС ЛПВП"
+          ]
+        },
+        "specimen": "serum",
+        "canonical_unit": "mmol/L",
+        "default_unit_by_region": {
+          "US": "mg/dL",
+          "EU": "mmol/L",
+          "RU": "mmol/L",
+          "other": "mmol/L"
+        },
+        "units": [
+          {
+            "code": "mmol/L",
+            "to_canonical": 1.0
+          },
+          {
+            "code": "mg/dL",
+            "to_canonical": 0.02586
+          }
+        ],
+        "plausible_range_canonical": [
+          0.2,
+          10.0
+        ],
+        "note": "«good cholesterol» / «хороший холестерин» убраны — см. ldl_cholesterol."
+      },
+      {
+        "key": "triglycerides",
+        "display": {
+          "en": "Triglycerides",
+          "ru": "Триглицериды"
+        },
+        "aliases": {
+          "en": [
+            "TG",
+            "TRIG",
+            "triacylglycerols"
+          ],
+          "ru": [
+            "ТГ",
+            "триглицериды в сыворотке"
+          ]
+        },
+        "specimen": "serum",
+        "canonical_unit": "mmol/L",
+        "default_unit_by_region": {
+          "US": "mg/dL",
+          "EU": "mmol/L",
+          "RU": "mmol/L",
+          "other": "mmol/L"
+        },
+        "units": [
+          {
+            "code": "mmol/L",
+            "to_canonical": 1.0
+          },
+          {
+            "code": "mg/dL",
+            "to_canonical": 0.01129
+          }
+        ],
+        "plausible_range_canonical": [
+          0.1,
+          40.0
+        ]
+      },
+      {
+        "key": "glucose",
+        "display": {
+          "en": "Fasting Glucose",
+          "ru": "Глюкоза натощак"
+        },
+        "aliases": {
+          "en": [
+            "blood sugar",
+            "fasting blood glucose",
+            "FBG",
+            "serum glucose"
+          ],
+          "ru": [
+            "сахар крови",
+            "глюкоза сыворотки",
+            "глюкоза венозной крови"
+          ]
+        },
+        "specimen": "plasma",
+        "canonical_unit": "mmol/L",
+        "default_unit_by_region": {
+          "US": "mg/dL",
+          "EU": "mmol/L",
+          "RU": "mmol/L",
+          "other": "mmol/L"
+        },
+        "units": [
+          {
+            "code": "mmol/L",
+            "to_canonical": 1.0
+          },
+          {
+            "code": "mg/dL",
+            "to_canonical": 0.0555
+          }
+        ],
+        "plausible_range_canonical": [
+          1.0,
+          45.0
+        ]
+      },
+      {
+        "key": "hba1c",
+        "display": {
+          "en": "HbA1c",
+          "ru": "Гликированный гемоглобин"
+        },
+        "aliases": {
+          "en": [
+            "glycated hemoglobin",
+            "A1C",
+            "hemoglobin A1c",
+            "glycohemoglobin"
+          ],
+          "ru": [
+            "гликозилированный гемоглобин",
+            "гликированный гемоглобин",
+            "HbA1c"
+          ]
+        },
+        "specimen": "whole_blood",
+        "canonical_unit": "%",
+        "default_unit_by_region": {
+          "US": "%",
+          "EU": "mmol/mol",
+          "RU": "%",
+          "other": "%"
+        },
+        "units": [
+          {
+            "code": "%",
+            "to_canonical": 1.0
+          },
+          {
+            "code": "mmol/mol",
+            "to_canonical": 0.0915,
+            "to_canonical_offset": 2.15
+          }
+        ],
+        "plausible_range_canonical": [
+          3.0,
+          20.0
+        ]
+      },
+      {
+        "key": "fasting_insulin",
+        "display": {
+          "en": "Fasting Insulin",
+          "ru": "Инсулин натощак"
+        },
+        "aliases": {
+          "en": [
+            "serum insulin",
+            "fasting insulin",
+            "IRI"
+          ],
+          "ru": [
+            "инсулин",
+            "инсулин сыворотки",
+            "базальный инсулин"
+          ]
+        },
+        "specimen": "serum",
+        "canonical_unit": "pmol/L",
+        "default_unit_by_region": {
+          "US": "uIU/mL",
+          "EU": "pmol/L",
+          "RU": "uIU/mL",
+          "other": "pmol/L"
+        },
+        "units": [
+          {
+            "code": "pmol/L",
+            "to_canonical": 1.0
+          },
+          {
+            "code": "uIU/mL",
+            "to_canonical": 6.945
+          },
+          {
+            "code": "mIU/L",
+            "to_canonical": 6.945
+          }
+        ],
+        "plausible_range_canonical": [
+          1.0,
+          2000.0
+        ]
+      },
+      {
+        "key": "alt",
+        "display": {
+          "en": "ALT",
+          "ru": "АЛТ"
+        },
+        "aliases": {
+          "en": [
+            "alanine aminotransferase",
+            "SGPT",
+            "alanine transaminase"
+          ],
+          "ru": [
+            "аланинаминотрансфераза",
+            "аланинтрансаминаза",
+            "АЛАТ"
+          ]
+        },
+        "specimen": "serum",
+        "canonical_unit": "U/L",
+        "default_unit_by_region": {
+          "US": "U/L",
+          "EU": "U/L",
+          "RU": "U/L",
+          "other": "U/L"
+        },
+        "units": [
+          {
+            "code": "U/L",
+            "to_canonical": 1.0
+          },
+          {
+            "code": "IU/L",
+            "to_canonical": 1.0
+          },
+          {
+            "code": "ukat/L",
+            "to_canonical": 60.0
+          }
+        ],
+        "plausible_range_canonical": [
+          1,
+          2000
+        ]
+      },
+      {
+        "key": "ast",
+        "display": {
+          "en": "AST",
+          "ru": "АСТ"
+        },
+        "aliases": {
+          "en": [
+            "aspartate aminotransferase",
+            "SGOT",
+            "aspartate transaminase"
+          ],
+          "ru": [
+            "аспартатаминотрансфераза",
+            "аспартаттрансаминаза",
+            "АСАТ"
+          ]
+        },
+        "specimen": "serum",
+        "canonical_unit": "U/L",
+        "default_unit_by_region": {
+          "US": "U/L",
+          "EU": "U/L",
+          "RU": "U/L",
+          "other": "U/L"
+        },
+        "units": [
+          {
+            "code": "U/L",
+            "to_canonical": 1.0
+          },
+          {
+            "code": "IU/L",
+            "to_canonical": 1.0
+          },
+          {
+            "code": "ukat/L",
+            "to_canonical": 60.0
+          }
+        ],
+        "plausible_range_canonical": [
+          1,
+          2000
+        ]
+      },
+      {
+        "key": "ggt",
+        "display": {
+          "en": "GGT",
+          "ru": "ГГТ (ГГТП)"
+        },
+        "aliases": {
+          "en": [
+            "gamma-glutamyl transferase",
+            "GGTP",
+            "gamma-GT"
+          ],
+          "ru": [
+            "гамма-глутамилтрансфераза",
+            "гамма-ГТ",
+            "ГГТП"
+          ]
+        },
+        "specimen": "serum",
+        "canonical_unit": "U/L",
+        "default_unit_by_region": {
+          "US": "U/L",
+          "EU": "U/L",
+          "RU": "U/L",
+          "other": "U/L"
+        },
+        "units": [
+          {
+            "code": "U/L",
+            "to_canonical": 1.0
+          },
+          {
+            "code": "IU/L",
+            "to_canonical": 1.0
+          },
+          {
+            "code": "ukat/L",
+            "to_canonical": 60.0
+          }
+        ],
+        "plausible_range_canonical": [
+          1,
+          1500
+        ]
+      },
+      {
+        "key": "creatinine",
+        "display": {
+          "en": "Creatinine",
+          "ru": "Креатинин"
+        },
+        "aliases": {
+          "en": [
+            "serum creatinine",
+            "creat"
+          ],
+          "ru": [
+            "креатинин сыворотки",
+            "креатинин крови"
+          ]
+        },
+        "specimen": "serum",
+        "canonical_unit": "umol/L",
+        "default_unit_by_region": {
+          "US": "mg/dL",
+          "EU": "umol/L",
+          "RU": "umol/L",
+          "other": "umol/L"
+        },
+        "units": [
+          {
+            "code": "umol/L",
+            "to_canonical": 1.0
+          },
+          {
+            "code": "mg/dL",
+            "to_canonical": 88.4
+          }
+        ],
+        "plausible_range_canonical": [
+          10,
+          1500
+        ]
+      },
+      {
+        "key": "weight",
+        "display": {
+          "en": "Weight",
+          "ru": "Вес"
+        },
+        "aliases": {
+          "en": [
+            "body weight",
+            "bodyweight"
+          ],
+          "ru": [
+            "масса тела",
+            "вес тела"
+          ]
+        },
+        "specimen": "body",
+        "self_measured": true,
+        "canonical_unit": "kg",
+        "default_unit_by_region": {
+          "US": "lb",
+          "EU": "kg",
+          "RU": "kg",
+          "other": "kg"
+        },
+        "units": [
+          {
+            "code": "kg",
+            "to_canonical": 1.0
+          },
+          {
+            "code": "lb",
+            "to_canonical": 0.45359237
+          }
+        ],
+        "plausible_range_canonical": [
+          25,
+          350
+        ],
+        "review_status": "pending"
+      },
+      {
+        "key": "waist",
+        "display": {
+          "en": "Waist",
+          "ru": "Объём талии"
+        },
+        "aliases": {
+          "en": [
+            "waist circumference",
+            "waist size"
+          ],
+          "ru": [
+            "талия",
+            "обхват талии",
+            "окружность талии"
+          ]
+        },
+        "specimen": "body",
+        "self_measured": true,
+        "canonical_unit": "cm",
+        "default_unit_by_region": {
+          "US": "in",
+          "EU": "cm",
+          "RU": "cm",
+          "other": "cm"
+        },
+        "units": [
+          {
+            "code": "cm",
+            "to_canonical": 1.0
+          },
+          {
+            "code": "in",
+            "to_canonical": 2.54
+          }
+        ],
+        "plausible_range_canonical": [
+          40,
+          200
+        ],
+        "review_status": "pending"
+      },
+      {
+        "key": "energy_score",
+        "display": {
+          "en": "Energy",
+          "ru": "Энергия"
+        },
+        "aliases": {
+          "en": [
+            "energy level"
+          ],
+          "ru": [
+            "уровень энергии"
+          ]
+        },
+        "specimen": "self_report",
+        "self_measured": true,
+        "canonical_unit": "score_1_5",
+        "default_unit_by_region": {
+          "US": "score_1_5",
+          "EU": "score_1_5",
+          "RU": "score_1_5",
+          "other": "score_1_5"
+        },
+        "units": [
+          {
+            "code": "score_1_5",
+            "to_canonical": 1.0
+          }
+        ],
+        "plausible_range_canonical": [
+          1,
+          5
+        ],
+        "review_status": "pending"
+      },
+      {
+        "key": "sleep_score",
+        "display": {
+          "en": "Sleep",
+          "ru": "Сон"
+        },
+        "aliases": {
+          "en": [
+            "sleep quality"
+          ],
+          "ru": [
+            "качество сна"
+          ]
+        },
+        "specimen": "self_report",
+        "self_measured": true,
+        "canonical_unit": "score_1_5",
+        "default_unit_by_region": {
+          "US": "score_1_5",
+          "EU": "score_1_5",
+          "RU": "score_1_5",
+          "other": "score_1_5"
+        },
+        "units": [
+          {
+            "code": "score_1_5",
+            "to_canonical": 1.0
+          }
+        ],
+        "plausible_range_canonical": [
+          1,
+          5
+        ],
+        "review_status": "pending"
+      },
+      {
+        "key": "mood_score",
+        "display": {
+          "en": "Mood",
+          "ru": "Настроение"
+        },
+        "aliases": {
+          "en": [
+            "mood level"
+          ],
+          "ru": []
+        },
+        "specimen": "self_report",
+        "self_measured": true,
+        "canonical_unit": "score_1_5",
+        "default_unit_by_region": {
+          "US": "score_1_5",
+          "EU": "score_1_5",
+          "RU": "score_1_5",
+          "other": "score_1_5"
+        },
+        "units": [
+          {
+            "code": "score_1_5",
+            "to_canonical": 1.0
+          }
+        ],
+        "plausible_range_canonical": [
+          1,
+          5
+        ],
+        "review_status": "pending"
+      }
+    ]
+  }
+}

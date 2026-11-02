@@ -1,0 +1,15 @@
+{
+  "id": "./",
+  "name": "Vitamin CHE — Personal Test",
+  "short_name": "Vitamin CHE",
+  "description": "A personal routine planner test build",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f8f5ee",
+  "theme_color": "#f8f5ee",
+  "icons": [
+    { "src": "./assets/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#f8f5ee" />
+    <meta name="description" content="Vitamin CHE personal routine planner — local test build." />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="icon" href="./assets/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./assets/icon.svg" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./styles-extra.css" />
+    <title>Vitamin CHE</title>
+  </head>
+  <body>
+    <div id="app" class="app-shell">
+      <header id="topbar" class="topbar"></header>
+      <main id="main" tabindex="-1"></main>
+      <nav id="nav" class="bottom-nav" aria-label="Main navigation"></nav>
+      <div id="toast" class="toast" role="status" aria-live="polite"></div>
+      <dialog id="dialog" class="dialog"></dialog>
+    </div>
+    <script type="module" src="./src/app.js"></script>
+  </body>
+</html>

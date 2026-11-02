@@ -1,0 +1,3556 @@
+{
+ "meta": {
+  "title": "Витрина ТОП-10: готовый состав подборок в порядке показа",
+  "source": "scripts/build_top10_preview.py (база SKU + 02-product/data/top10-combo-marks.csv)",
+  "collections": 34,
+  "rows": 354,
+  "rules": [
+   "position — порядок показа, как у Елены",
+   "is_combo_from_other — банка из чужой подборки (2–3 вещества), включена по отметке Елены",
+   "детские подборки влиты в общие; метка аудитории — как на упаковке (audience_label)",
+   "банки out_of_stock и discontinued сюда не попадают"
+  ]
+ },
+ "rows": [
+  {
+   "collection_id": "vitamin_d",
+   "collection_name_en": "Vitamin D",
+   "nutrient_id": "vitamin_d",
+   "position": 1,
+   "sku_id": "IH18445",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_d",
+   "collection_name_en": "Vitamin D",
+   "nutrient_id": "vitamin_d",
+   "position": 2,
+   "sku_id": "IH47830",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_d",
+   "collection_name_en": "Vitamin D",
+   "nutrient_id": "vitamin_d",
+   "position": 3,
+   "sku_id": "IH14689",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_d",
+   "collection_name_en": "Vitamin D",
+   "nutrient_id": "vitamin_d",
+   "position": 4,
+   "sku_id": "IH70317",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_d",
+   "collection_name_en": "Vitamin D",
+   "nutrient_id": "vitamin_d",
+   "position": 5,
+   "sku_id": "IH15009",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_d",
+   "collection_name_en": "Vitamin D",
+   "nutrient_id": "vitamin_d",
+   "position": 6,
+   "sku_id": "IH67794",
+   "is_combo_from_other": false,
+   "section_en": "Liposomal",
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_d",
+   "collection_name_en": "Vitamin D",
+   "nutrient_id": "vitamin_d",
+   "position": 7,
+   "sku_id": "IH48625",
+   "is_combo_from_other": false,
+   "section_en": "Gummies",
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_d",
+   "collection_name_en": "Vitamin D",
+   "nutrient_id": "vitamin_d",
+   "position": 8,
+   "sku_id": "IH73704",
+   "is_combo_from_other": false,
+   "section_en": "Gummies",
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_d",
+   "collection_name_en": "Vitamin D",
+   "nutrient_id": "vitamin_d",
+   "position": 9,
+   "sku_id": "IH46272",
+   "is_combo_from_other": false,
+   "section_en": "Liquid drops",
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_d",
+   "collection_name_en": "Vitamin D",
+   "nutrient_id": "vitamin_d",
+   "position": 10,
+   "sku_id": "IH39419",
+   "is_combo_from_other": false,
+   "section_en": "Liquid drops",
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_d",
+   "collection_name_en": "Vitamin D",
+   "nutrient_id": "vitamin_d",
+   "position": 11,
+   "sku_id": "IH51074",
+   "is_combo_from_other": false,
+   "section_en": "Liquid drops",
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_d",
+   "collection_name_en": "Vitamin D",
+   "nutrient_id": "vitamin_d",
+   "position": 12,
+   "sku_id": "IH65958",
+   "is_combo_from_other": false,
+   "section_en": "For kids",
+   "audience_label": "kids"
+  },
+  {
+   "collection_id": "vitamin_d",
+   "collection_name_en": "Vitamin D",
+   "nutrient_id": "vitamin_d",
+   "position": 13,
+   "sku_id": "IH80731",
+   "is_combo_from_other": false,
+   "section_en": "For kids",
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_d",
+   "collection_name_en": "Vitamin D",
+   "nutrient_id": "vitamin_d",
+   "position": 14,
+   "sku_id": "IH47794",
+   "is_combo_from_other": false,
+   "section_en": "For kids",
+   "audience_label": "kids"
+  },
+  {
+   "collection_id": "vitamin_d",
+   "collection_name_en": "Vitamin D",
+   "nutrient_id": "vitamin_d",
+   "position": 15,
+   "sku_id": "IH47291",
+   "is_combo_from_other": false,
+   "section_en": "For kids",
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_d",
+   "collection_name_en": "Vitamin D",
+   "nutrient_id": "vitamin_d",
+   "position": 16,
+   "sku_id": "IH24742",
+   "is_combo_from_other": false,
+   "section_en": "For kids",
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_d",
+   "collection_name_en": "Vitamin D",
+   "nutrient_id": "vitamin_d",
+   "position": 17,
+   "sku_id": "IH40018",
+   "is_combo_from_other": false,
+   "section_en": "For kids",
+   "audience_label": "kids"
+  },
+  {
+   "collection_id": "vitamin_d",
+   "collection_name_en": "Vitamin D",
+   "nutrient_id": "vitamin_d",
+   "position": 18,
+   "sku_id": "IH142160",
+   "is_combo_from_other": true,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_d",
+   "collection_name_en": "Vitamin D",
+   "nutrient_id": "vitamin_d",
+   "position": 19,
+   "sku_id": "IH77415",
+   "is_combo_from_other": true,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_d",
+   "collection_name_en": "Vitamin D",
+   "nutrient_id": "vitamin_d",
+   "position": 20,
+   "sku_id": "IH78779",
+   "is_combo_from_other": true,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_d",
+   "collection_name_en": "Vitamin D",
+   "nutrient_id": "vitamin_d",
+   "position": 21,
+   "sku_id": "IH99900",
+   "is_combo_from_other": true,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_d",
+   "collection_name_en": "Vitamin D",
+   "nutrient_id": "vitamin_d",
+   "position": 22,
+   "sku_id": "IH70098",
+   "is_combo_from_other": true,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_d",
+   "collection_name_en": "Vitamin D",
+   "nutrient_id": "vitamin_d",
+   "position": 23,
+   "sku_id": "IH107253",
+   "is_combo_from_other": true,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_d",
+   "collection_name_en": "Vitamin D",
+   "nutrient_id": "vitamin_d",
+   "position": 24,
+   "sku_id": "IH8449",
+   "is_combo_from_other": true,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_d",
+   "collection_name_en": "Vitamin D",
+   "nutrient_id": "vitamin_d",
+   "position": 25,
+   "sku_id": "IH33150",
+   "is_combo_from_other": true,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_d",
+   "collection_name_en": "Vitamin D",
+   "nutrient_id": "vitamin_d",
+   "position": 26,
+   "sku_id": "IH12146",
+   "is_combo_from_other": true,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_d",
+   "collection_name_en": "Vitamin D",
+   "nutrient_id": "vitamin_d",
+   "position": 27,
+   "sku_id": "IH52821",
+   "is_combo_from_other": true,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_d",
+   "collection_name_en": "Vitamin D",
+   "nutrient_id": "vitamin_d",
+   "position": 28,
+   "sku_id": "IH34130",
+   "is_combo_from_other": true,
+   "section_en": null,
+   "audience_label": "kids"
+  },
+  {
+   "collection_id": "vitamin_d",
+   "collection_name_en": "Vitamin D",
+   "nutrient_id": "vitamin_d",
+   "position": 29,
+   "sku_id": "IH7256",
+   "is_combo_from_other": true,
+   "section_en": null,
+   "audience_label": "kids"
+  },
+  {
+   "collection_id": "vitamin_d",
+   "collection_name_en": "Vitamin D",
+   "nutrient_id": "vitamin_d",
+   "position": 30,
+   "sku_id": "IH68171",
+   "is_combo_from_other": true,
+   "section_en": null,
+   "audience_label": "kids"
+  },
+  {
+   "collection_id": "vitamin_d_k2",
+   "collection_name_en": "Vitamin D + K2",
+   "nutrient_id": null,
+   "position": 1,
+   "sku_id": "IH66953",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_d_k2",
+   "collection_name_en": "Vitamin D + K2",
+   "nutrient_id": null,
+   "position": 2,
+   "sku_id": "IH73704",
+   "is_combo_from_other": false,
+   "section_en": "Gummies",
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_d_k2",
+   "collection_name_en": "Vitamin D + K2",
+   "nutrient_id": null,
+   "position": 3,
+   "sku_id": "IH77415",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_d_k2",
+   "collection_name_en": "Vitamin D + K2",
+   "nutrient_id": null,
+   "position": 4,
+   "sku_id": "IH78779",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_d_k2",
+   "collection_name_en": "Vitamin D + K2",
+   "nutrient_id": null,
+   "position": 5,
+   "sku_id": "IH99900",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_d_k2",
+   "collection_name_en": "Vitamin D + K2",
+   "nutrient_id": null,
+   "position": 6,
+   "sku_id": "IH70098",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_d_k2",
+   "collection_name_en": "Vitamin D + K2",
+   "nutrient_id": null,
+   "position": 7,
+   "sku_id": "IH107253",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "inositol",
+   "collection_name_en": "Inositol",
+   "nutrient_id": "inositol",
+   "position": 1,
+   "sku_id": "IH156451",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "inositol",
+   "collection_name_en": "Inositol",
+   "nutrient_id": "inositol",
+   "position": 2,
+   "sku_id": "IH143294",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "inositol",
+   "collection_name_en": "Inositol",
+   "nutrient_id": "inositol",
+   "position": 3,
+   "sku_id": "IH114927",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "inositol",
+   "collection_name_en": "Inositol",
+   "nutrient_id": "inositol",
+   "position": 4,
+   "sku_id": "IH114887",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "inositol",
+   "collection_name_en": "Inositol",
+   "nutrient_id": "inositol",
+   "position": 5,
+   "sku_id": "IH142160",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "inositol",
+   "collection_name_en": "Inositol",
+   "nutrient_id": "inositol",
+   "position": 6,
+   "sku_id": "IH124160",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "women"
+  },
+  {
+   "collection_id": "inositol",
+   "collection_name_en": "Inositol",
+   "nutrient_id": "inositol",
+   "position": 7,
+   "sku_id": "IH43479",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "inositol",
+   "collection_name_en": "Inositol",
+   "nutrient_id": "inositol",
+   "position": 8,
+   "sku_id": "IH192",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "inositol",
+   "collection_name_en": "Inositol",
+   "nutrient_id": "inositol",
+   "position": 9,
+   "sku_id": "IH116461",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "inositol",
+   "collection_name_en": "Inositol",
+   "nutrient_id": "inositol",
+   "position": 10,
+   "sku_id": "IH73624",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "inositol",
+   "collection_name_en": "Inositol",
+   "nutrient_id": "inositol",
+   "position": 11,
+   "sku_id": "IH126290",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "inositol",
+   "collection_name_en": "Inositol",
+   "nutrient_id": "inositol",
+   "position": 12,
+   "sku_id": "IH15708",
+   "is_combo_from_other": false,
+   "section_en": "Lipotropic factors",
+   "audience_label": null
+  },
+  {
+   "collection_id": "inositol",
+   "collection_name_en": "Inositol",
+   "nutrient_id": "inositol",
+   "position": 13,
+   "sku_id": "IH15507",
+   "is_combo_from_other": false,
+   "section_en": "Lipotropic factors",
+   "audience_label": null
+  },
+  {
+   "collection_id": "inositol",
+   "collection_name_en": "Inositol",
+   "nutrient_id": "inositol",
+   "position": 14,
+   "sku_id": "IH513",
+   "is_combo_from_other": false,
+   "section_en": "Lipotropic factors",
+   "audience_label": null
+  },
+  {
+   "collection_id": "inositol",
+   "collection_name_en": "Inositol",
+   "nutrient_id": "inositol",
+   "position": 15,
+   "sku_id": "IH1882",
+   "is_combo_from_other": true,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "folate",
+   "collection_name_en": "Folate (B9)",
+   "nutrient_id": "folate",
+   "position": 1,
+   "sku_id": "IH65768",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "folate",
+   "collection_name_en": "Folate (B9)",
+   "nutrient_id": "folate",
+   "position": 2,
+   "sku_id": "IH48579",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "folate",
+   "collection_name_en": "Folate (B9)",
+   "nutrient_id": "folate",
+   "position": 3,
+   "sku_id": "IH69309",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "folate",
+   "collection_name_en": "Folate (B9)",
+   "nutrient_id": "folate",
+   "position": 4,
+   "sku_id": "IH601",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "folate",
+   "collection_name_en": "Folate (B9)",
+   "nutrient_id": "folate",
+   "position": 5,
+   "sku_id": "IH72624",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "folate",
+   "collection_name_en": "Folate (B9)",
+   "nutrient_id": "folate",
+   "position": 6,
+   "sku_id": "IH18717",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "folate",
+   "collection_name_en": "Folate (B9)",
+   "nutrient_id": "folate",
+   "position": 7,
+   "sku_id": "IH64992",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "folate",
+   "collection_name_en": "Folate (B9)",
+   "nutrient_id": "folate",
+   "position": 8,
+   "sku_id": "IH142160",
+   "is_combo_from_other": true,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "folate",
+   "collection_name_en": "Folate (B9)",
+   "nutrient_id": "folate",
+   "position": 9,
+   "sku_id": "IH67058",
+   "is_combo_from_other": true,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_b12",
+   "collection_name_en": "Vitamin B12",
+   "nutrient_id": "vitamin_b12",
+   "position": 1,
+   "sku_id": "IH59524",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_b12",
+   "collection_name_en": "Vitamin B12",
+   "nutrient_id": "vitamin_b12",
+   "position": 2,
+   "sku_id": "IH14221",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_b12",
+   "collection_name_en": "Vitamin B12",
+   "nutrient_id": "vitamin_b12",
+   "position": 3,
+   "sku_id": "IH58126",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_b12",
+   "collection_name_en": "Vitamin B12",
+   "nutrient_id": "vitamin_b12",
+   "position": 4,
+   "sku_id": "IH58322",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_b12",
+   "collection_name_en": "Vitamin B12",
+   "nutrient_id": "vitamin_b12",
+   "position": 5,
+   "sku_id": "IH8641",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_b12",
+   "collection_name_en": "Vitamin B12",
+   "nutrient_id": "vitamin_b12",
+   "position": 6,
+   "sku_id": "IH18440",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_b12",
+   "collection_name_en": "Vitamin B12",
+   "nutrient_id": "vitamin_b12",
+   "position": 7,
+   "sku_id": "IH449",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_b12",
+   "collection_name_en": "Vitamin B12",
+   "nutrient_id": "vitamin_b12",
+   "position": 8,
+   "sku_id": "IH3950",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_b12",
+   "collection_name_en": "Vitamin B12",
+   "nutrient_id": "vitamin_b12",
+   "position": 9,
+   "sku_id": "IH129",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_b12",
+   "collection_name_en": "Vitamin B12",
+   "nutrient_id": "vitamin_b12",
+   "position": 10,
+   "sku_id": "IH67058",
+   "is_combo_from_other": true,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "magnesium",
+   "collection_name_en": "Magnesium",
+   "nutrient_id": "magnesium",
+   "position": 1,
+   "sku_id": "IH115255",
+   "is_combo_from_other": false,
+   "section_en": "Magnesium L-threonate",
+   "audience_label": null
+  },
+  {
+   "collection_id": "magnesium",
+   "collection_name_en": "Magnesium",
+   "nutrient_id": "magnesium",
+   "position": 2,
+   "sku_id": "IH158833",
+   "is_combo_from_other": false,
+   "section_en": "Magnesium L-threonate",
+   "audience_label": null
+  },
+  {
+   "collection_id": "magnesium",
+   "collection_name_en": "Magnesium",
+   "nutrient_id": "magnesium",
+   "position": 3,
+   "sku_id": "IH103274",
+   "is_combo_from_other": false,
+   "section_en": "Magnesium glycinate",
+   "audience_label": null
+  },
+  {
+   "collection_id": "magnesium",
+   "collection_name_en": "Magnesium",
+   "nutrient_id": "magnesium",
+   "position": 4,
+   "sku_id": "IH16567",
+   "is_combo_from_other": false,
+   "section_en": "Magnesium glycinate",
+   "audience_label": null
+  },
+  {
+   "collection_id": "magnesium",
+   "collection_name_en": "Magnesium",
+   "nutrient_id": "magnesium",
+   "position": 5,
+   "sku_id": "IH88819",
+   "is_combo_from_other": false,
+   "section_en": "Magnesium glycinate",
+   "audience_label": null
+  },
+  {
+   "collection_id": "magnesium",
+   "collection_name_en": "Magnesium",
+   "nutrient_id": "magnesium",
+   "position": 6,
+   "sku_id": "IH30642",
+   "is_combo_from_other": false,
+   "section_en": "Magnesium glycinate",
+   "audience_label": null
+  },
+  {
+   "collection_id": "magnesium",
+   "collection_name_en": "Magnesium",
+   "nutrient_id": "magnesium",
+   "position": 7,
+   "sku_id": "IH64171",
+   "is_combo_from_other": false,
+   "section_en": "Magnesium citrate",
+   "audience_label": null
+  },
+  {
+   "collection_id": "magnesium",
+   "collection_name_en": "Magnesium",
+   "nutrient_id": "magnesium",
+   "position": 8,
+   "sku_id": "IH142759",
+   "is_combo_from_other": false,
+   "section_en": "Magnesium citrate",
+   "audience_label": null
+  },
+  {
+   "collection_id": "magnesium",
+   "collection_name_en": "Magnesium",
+   "nutrient_id": "magnesium",
+   "position": 9,
+   "sku_id": "IH18627",
+   "is_combo_from_other": false,
+   "section_en": "Magnesium citrate",
+   "audience_label": null
+  },
+  {
+   "collection_id": "magnesium",
+   "collection_name_en": "Magnesium",
+   "nutrient_id": "magnesium",
+   "position": 10,
+   "sku_id": "IH132246",
+   "is_combo_from_other": false,
+   "section_en": "Magnesium malate",
+   "audience_label": null
+  },
+  {
+   "collection_id": "magnesium",
+   "collection_name_en": "Magnesium",
+   "nutrient_id": "magnesium",
+   "position": 11,
+   "sku_id": "IH103002",
+   "is_combo_from_other": false,
+   "section_en": "Magnesium taurate",
+   "audience_label": null
+  },
+  {
+   "collection_id": "magnesium",
+   "collection_name_en": "Magnesium",
+   "nutrient_id": "magnesium",
+   "position": 12,
+   "sku_id": "IH139040",
+   "is_combo_from_other": false,
+   "section_en": "Magnesium taurate",
+   "audience_label": null
+  },
+  {
+   "collection_id": "magnesium",
+   "collection_name_en": "Magnesium",
+   "nutrient_id": "magnesium",
+   "position": 13,
+   "sku_id": "IH14071",
+   "is_combo_from_other": false,
+   "section_en": "Magnesium complex",
+   "audience_label": null
+  },
+  {
+   "collection_id": "magnesium",
+   "collection_name_en": "Magnesium",
+   "nutrient_id": "magnesium",
+   "position": 14,
+   "sku_id": "IH146163",
+   "is_combo_from_other": false,
+   "section_en": "Magnesium complex",
+   "audience_label": null
+  },
+  {
+   "collection_id": "magnesium",
+   "collection_name_en": "Magnesium",
+   "nutrient_id": "magnesium",
+   "position": 15,
+   "sku_id": "IH124146",
+   "is_combo_from_other": false,
+   "section_en": "Magnesium complex",
+   "audience_label": null
+  },
+  {
+   "collection_id": "magnesium",
+   "collection_name_en": "Magnesium",
+   "nutrient_id": "magnesium",
+   "position": 16,
+   "sku_id": "IH73624",
+   "is_combo_from_other": true,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "magnesium",
+   "collection_name_en": "Magnesium",
+   "nutrient_id": "magnesium",
+   "position": 17,
+   "sku_id": "IH8449",
+   "is_combo_from_other": true,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "magnesium",
+   "collection_name_en": "Magnesium",
+   "nutrient_id": "magnesium",
+   "position": 18,
+   "sku_id": "IH80811",
+   "is_combo_from_other": true,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "magnesium",
+   "collection_name_en": "Magnesium",
+   "nutrient_id": "magnesium",
+   "position": 19,
+   "sku_id": "IH34130",
+   "is_combo_from_other": true,
+   "section_en": null,
+   "audience_label": "kids"
+  },
+  {
+   "collection_id": "magnesium",
+   "collection_name_en": "Magnesium",
+   "nutrient_id": "magnesium",
+   "position": 20,
+   "sku_id": "IH25898",
+   "is_combo_from_other": true,
+   "section_en": null,
+   "audience_label": "kids"
+  },
+  {
+   "collection_id": "magnesium",
+   "collection_name_en": "Magnesium",
+   "nutrient_id": "magnesium",
+   "position": 21,
+   "sku_id": "IH7256",
+   "is_combo_from_other": true,
+   "section_en": null,
+   "audience_label": "kids"
+  },
+  {
+   "collection_id": "magnesium",
+   "collection_name_en": "Magnesium",
+   "nutrient_id": "magnesium",
+   "position": 22,
+   "sku_id": "IH14132",
+   "is_combo_from_other": true,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "magnesium",
+   "collection_name_en": "Magnesium",
+   "nutrient_id": "magnesium",
+   "position": 23,
+   "sku_id": "IH89534",
+   "is_combo_from_other": true,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "calcium",
+   "collection_name_en": "Calcium",
+   "nutrient_id": "calcium",
+   "position": 1,
+   "sku_id": "IH8449",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "calcium",
+   "collection_name_en": "Calcium",
+   "nutrient_id": "calcium",
+   "position": 2,
+   "sku_id": "IH80811",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "calcium",
+   "collection_name_en": "Calcium",
+   "nutrient_id": "calcium",
+   "position": 3,
+   "sku_id": "IH18255",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "calcium",
+   "collection_name_en": "Calcium",
+   "nutrient_id": "calcium",
+   "position": 4,
+   "sku_id": "IH58125",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "calcium",
+   "collection_name_en": "Calcium",
+   "nutrient_id": "calcium",
+   "position": 5,
+   "sku_id": "IH43056",
+   "is_combo_from_other": false,
+   "section_en": "Popular on iHerb",
+   "audience_label": null
+  },
+  {
+   "collection_id": "calcium",
+   "collection_name_en": "Calcium",
+   "nutrient_id": "calcium",
+   "position": 6,
+   "sku_id": "IH10010",
+   "is_combo_from_other": false,
+   "section_en": "Popular on iHerb",
+   "audience_label": null
+  },
+  {
+   "collection_id": "calcium",
+   "collection_name_en": "Calcium",
+   "nutrient_id": "calcium",
+   "position": 7,
+   "sku_id": "IH33150",
+   "is_combo_from_other": false,
+   "section_en": "Popular on iHerb",
+   "audience_label": null
+  },
+  {
+   "collection_id": "calcium",
+   "collection_name_en": "Calcium",
+   "nutrient_id": "calcium",
+   "position": 8,
+   "sku_id": "IH23609",
+   "is_combo_from_other": false,
+   "section_en": "Calcium citrate",
+   "audience_label": null
+  },
+  {
+   "collection_id": "calcium",
+   "collection_name_en": "Calcium",
+   "nutrient_id": "calcium",
+   "position": 9,
+   "sku_id": "IH481",
+   "is_combo_from_other": false,
+   "section_en": "Calcium citrate",
+   "audience_label": null
+  },
+  {
+   "collection_id": "calcium",
+   "collection_name_en": "Calcium",
+   "nutrient_id": "calcium",
+   "position": 10,
+   "sku_id": "IH1809",
+   "is_combo_from_other": false,
+   "section_en": "Calcium citrate",
+   "audience_label": null
+  },
+  {
+   "collection_id": "calcium",
+   "collection_name_en": "Calcium",
+   "nutrient_id": "calcium",
+   "position": 11,
+   "sku_id": "IH22555",
+   "is_combo_from_other": false,
+   "section_en": "Calcium citrate",
+   "audience_label": null
+  },
+  {
+   "collection_id": "calcium",
+   "collection_name_en": "Calcium",
+   "nutrient_id": "calcium",
+   "position": 12,
+   "sku_id": "IH12146",
+   "is_combo_from_other": false,
+   "section_en": "Calcium + D3",
+   "audience_label": null
+  },
+  {
+   "collection_id": "calcium",
+   "collection_name_en": "Calcium",
+   "nutrient_id": "calcium",
+   "position": 13,
+   "sku_id": "IH52821",
+   "is_combo_from_other": false,
+   "section_en": "Calcium + D3",
+   "audience_label": null
+  },
+  {
+   "collection_id": "calcium",
+   "collection_name_en": "Calcium",
+   "nutrient_id": "calcium",
+   "position": 14,
+   "sku_id": "IH34130",
+   "is_combo_from_other": false,
+   "section_en": "For kids",
+   "audience_label": "kids"
+  },
+  {
+   "collection_id": "calcium",
+   "collection_name_en": "Calcium",
+   "nutrient_id": "calcium",
+   "position": 15,
+   "sku_id": "IH25898",
+   "is_combo_from_other": false,
+   "section_en": "For kids",
+   "audience_label": "kids"
+  },
+  {
+   "collection_id": "calcium",
+   "collection_name_en": "Calcium",
+   "nutrient_id": "calcium",
+   "position": 16,
+   "sku_id": "IH103379",
+   "is_combo_from_other": false,
+   "section_en": "For kids",
+   "audience_label": null
+  },
+  {
+   "collection_id": "calcium",
+   "collection_name_en": "Calcium",
+   "nutrient_id": "calcium",
+   "position": 17,
+   "sku_id": "IH7256",
+   "is_combo_from_other": false,
+   "section_en": "For kids",
+   "audience_label": "kids"
+  },
+  {
+   "collection_id": "calcium",
+   "collection_name_en": "Calcium",
+   "nutrient_id": "calcium",
+   "position": 18,
+   "sku_id": "IH108257",
+   "is_combo_from_other": false,
+   "section_en": "For kids",
+   "audience_label": "kids"
+  },
+  {
+   "collection_id": "copper",
+   "collection_name_en": "Copper",
+   "nutrient_id": "copper",
+   "position": 1,
+   "sku_id": "IH41330",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "copper",
+   "collection_name_en": "Copper",
+   "nutrient_id": "copper",
+   "position": 2,
+   "sku_id": "IH19000",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "copper",
+   "collection_name_en": "Copper",
+   "nutrient_id": "copper",
+   "position": 3,
+   "sku_id": "IH14229",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "copper",
+   "collection_name_en": "Copper",
+   "nutrient_id": "copper",
+   "position": 4,
+   "sku_id": "IH52665",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "iron",
+   "collection_name_en": "Iron",
+   "nutrient_id": "iron",
+   "position": 1,
+   "sku_id": "IH10625",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "iron",
+   "collection_name_en": "Iron",
+   "nutrient_id": "iron",
+   "position": 2,
+   "sku_id": "IH73608",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "iron",
+   "collection_name_en": "Iron",
+   "nutrient_id": "iron",
+   "position": 3,
+   "sku_id": "IH7662",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "iron",
+   "collection_name_en": "Iron",
+   "nutrient_id": "iron",
+   "position": 4,
+   "sku_id": "IH124155",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "women"
+  },
+  {
+   "collection_id": "iron",
+   "collection_name_en": "Iron",
+   "nutrient_id": "iron",
+   "position": 5,
+   "sku_id": "IH106328",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "iron",
+   "collection_name_en": "Iron",
+   "nutrient_id": "iron",
+   "position": 6,
+   "sku_id": "IH27320",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "iron",
+   "collection_name_en": "Iron",
+   "nutrient_id": "iron",
+   "position": 7,
+   "sku_id": "IH18582",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "iron",
+   "collection_name_en": "Iron",
+   "nutrient_id": "iron",
+   "position": 8,
+   "sku_id": "IH89592",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "iron",
+   "collection_name_en": "Iron",
+   "nutrient_id": "iron",
+   "position": 9,
+   "sku_id": "IH105249",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "iron",
+   "collection_name_en": "Iron",
+   "nutrient_id": "iron",
+   "position": 10,
+   "sku_id": "IH72625",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "iron",
+   "collection_name_en": "Iron",
+   "nutrient_id": "iron",
+   "position": 11,
+   "sku_id": "IH52838",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "iron",
+   "collection_name_en": "Iron",
+   "nutrient_id": "iron",
+   "position": 12,
+   "sku_id": "IH32307",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "iron",
+   "collection_name_en": "Iron",
+   "nutrient_id": "iron",
+   "position": 13,
+   "sku_id": "IH15855",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "iron",
+   "collection_name_en": "Iron",
+   "nutrient_id": "iron",
+   "position": 14,
+   "sku_id": "IH12940",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "iron",
+   "collection_name_en": "Iron",
+   "nutrient_id": "iron",
+   "position": 15,
+   "sku_id": "IH90184",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "kids"
+  },
+  {
+   "collection_id": "zinc",
+   "collection_name_en": "Zinc",
+   "nutrient_id": "zinc",
+   "position": 1,
+   "sku_id": "IH19000",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "zinc",
+   "collection_name_en": "Zinc",
+   "nutrient_id": "zinc",
+   "position": 2,
+   "sku_id": "IH1361",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "zinc",
+   "collection_name_en": "Zinc",
+   "nutrient_id": "zinc",
+   "position": 3,
+   "sku_id": "IH878",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "zinc",
+   "collection_name_en": "Zinc",
+   "nutrient_id": "zinc",
+   "position": 4,
+   "sku_id": "IH46033",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "zinc",
+   "collection_name_en": "Zinc",
+   "nutrient_id": "zinc",
+   "position": 5,
+   "sku_id": "IH71893",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "zinc",
+   "collection_name_en": "Zinc",
+   "nutrient_id": "zinc",
+   "position": 6,
+   "sku_id": "IH10035",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "zinc",
+   "collection_name_en": "Zinc",
+   "nutrient_id": "zinc",
+   "position": 7,
+   "sku_id": "IH7631",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "zinc",
+   "collection_name_en": "Zinc",
+   "nutrient_id": "zinc",
+   "position": 8,
+   "sku_id": "IH91976",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "zinc",
+   "collection_name_en": "Zinc",
+   "nutrient_id": "zinc",
+   "position": 9,
+   "sku_id": "IH9588",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "zinc",
+   "collection_name_en": "Zinc",
+   "nutrient_id": "zinc",
+   "position": 10,
+   "sku_id": "IH105619",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "zinc",
+   "collection_name_en": "Zinc",
+   "nutrient_id": "zinc",
+   "position": 11,
+   "sku_id": "IH57009",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "zinc",
+   "collection_name_en": "Zinc",
+   "nutrient_id": "zinc",
+   "position": 12,
+   "sku_id": "IH86509",
+   "is_combo_from_other": true,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "selenium",
+   "collection_name_en": "Selenium",
+   "nutrient_id": "selenium",
+   "position": 1,
+   "sku_id": "IH48602",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "selenium",
+   "collection_name_en": "Selenium",
+   "nutrient_id": "selenium",
+   "position": 2,
+   "sku_id": "IH813",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "selenium",
+   "collection_name_en": "Selenium",
+   "nutrient_id": "selenium",
+   "position": 3,
+   "sku_id": "IH46040",
+   "is_combo_from_other": false,
+   "section_en": "200–300 mcg",
+   "audience_label": null
+  },
+  {
+   "collection_id": "selenium",
+   "collection_name_en": "Selenium",
+   "nutrient_id": "selenium",
+   "position": 4,
+   "sku_id": "IH90416",
+   "is_combo_from_other": false,
+   "section_en": "200–300 mcg",
+   "audience_label": null
+  },
+  {
+   "collection_id": "selenium",
+   "collection_name_en": "Selenium",
+   "nutrient_id": "selenium",
+   "position": 5,
+   "sku_id": "IH10984",
+   "is_combo_from_other": false,
+   "section_en": "200–300 mcg",
+   "audience_label": null
+  },
+  {
+   "collection_id": "selenium",
+   "collection_name_en": "Selenium",
+   "nutrient_id": "selenium",
+   "position": 6,
+   "sku_id": "IH23263",
+   "is_combo_from_other": false,
+   "section_en": "200–300 mcg",
+   "audience_label": null
+  },
+  {
+   "collection_id": "selenium",
+   "collection_name_en": "Selenium",
+   "nutrient_id": "selenium",
+   "position": 7,
+   "sku_id": "IH46682",
+   "is_combo_from_other": false,
+   "section_en": "200–300 mcg",
+   "audience_label": null
+  },
+  {
+   "collection_id": "selenium",
+   "collection_name_en": "Selenium",
+   "nutrient_id": "selenium",
+   "position": 8,
+   "sku_id": "IH86509",
+   "is_combo_from_other": false,
+   "section_en": "200–300 mcg",
+   "audience_label": null
+  },
+  {
+   "collection_id": "selenium",
+   "collection_name_en": "Selenium",
+   "nutrient_id": "selenium",
+   "position": 9,
+   "sku_id": "IH13618",
+   "is_combo_from_other": true,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "women_multi",
+   "collection_name_en": "Women multivitamins",
+   "nutrient_id": null,
+   "position": 1,
+   "sku_id": "IH58122",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "women"
+  },
+  {
+   "collection_id": "women_multi",
+   "collection_name_en": "Women multivitamins",
+   "nutrient_id": null,
+   "position": 2,
+   "sku_id": "IH18253",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "women"
+  },
+  {
+   "collection_id": "women_multi",
+   "collection_name_en": "Women multivitamins",
+   "nutrient_id": null,
+   "position": 3,
+   "sku_id": "IH102918",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "women"
+  },
+  {
+   "collection_id": "women_multi",
+   "collection_name_en": "Women multivitamins",
+   "nutrient_id": null,
+   "position": 4,
+   "sku_id": "IH23363",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "women"
+  },
+  {
+   "collection_id": "women_multi",
+   "collection_name_en": "Women multivitamins",
+   "nutrient_id": null,
+   "position": 5,
+   "sku_id": "IH152746",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "women_multi",
+   "collection_name_en": "Women multivitamins",
+   "nutrient_id": null,
+   "position": 6,
+   "sku_id": "IH39614",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "women"
+  },
+  {
+   "collection_id": "women_multi",
+   "collection_name_en": "Women multivitamins",
+   "nutrient_id": null,
+   "position": 7,
+   "sku_id": "IH104052",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "women"
+  },
+  {
+   "collection_id": "women_multi",
+   "collection_name_en": "Women multivitamins",
+   "nutrient_id": null,
+   "position": 8,
+   "sku_id": "IH133133",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "women"
+  },
+  {
+   "collection_id": "women_multi",
+   "collection_name_en": "Women multivitamins",
+   "nutrient_id": null,
+   "position": 9,
+   "sku_id": "IH125281",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "women"
+  },
+  {
+   "collection_id": "women_multi",
+   "collection_name_en": "Women multivitamins",
+   "nutrient_id": null,
+   "position": 10,
+   "sku_id": "IH159718",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "women"
+  },
+  {
+   "collection_id": "women_multi",
+   "collection_name_en": "Women multivitamins",
+   "nutrient_id": null,
+   "position": 11,
+   "sku_id": "IH73939",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "women"
+  },
+  {
+   "collection_id": "vitamin_k2",
+   "collection_name_en": "Vitamin K2",
+   "nutrient_id": "vitamin_k",
+   "position": 1,
+   "sku_id": "IH48612",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_k2",
+   "collection_name_en": "Vitamin K2",
+   "nutrient_id": "vitamin_k",
+   "position": 2,
+   "sku_id": "IH15190",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_k2",
+   "collection_name_en": "Vitamin K2",
+   "nutrient_id": "vitamin_k",
+   "position": 3,
+   "sku_id": "IH86465",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_k2",
+   "collection_name_en": "Vitamin K2",
+   "nutrient_id": "vitamin_k",
+   "position": 4,
+   "sku_id": "IH78992",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_k2",
+   "collection_name_en": "Vitamin K2",
+   "nutrient_id": "vitamin_k",
+   "position": 5,
+   "sku_id": "IH90368",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_k2",
+   "collection_name_en": "Vitamin K2",
+   "nutrient_id": "vitamin_k",
+   "position": 6,
+   "sku_id": "IH72156",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_k2",
+   "collection_name_en": "Vitamin K2",
+   "nutrient_id": "vitamin_k",
+   "position": 7,
+   "sku_id": "IH73704",
+   "is_combo_from_other": true,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_k2",
+   "collection_name_en": "Vitamin K2",
+   "nutrient_id": "vitamin_k",
+   "position": 8,
+   "sku_id": "IH77415",
+   "is_combo_from_other": true,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_k2",
+   "collection_name_en": "Vitamin K2",
+   "nutrient_id": "vitamin_k",
+   "position": 9,
+   "sku_id": "IH78779",
+   "is_combo_from_other": true,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_k2",
+   "collection_name_en": "Vitamin K2",
+   "nutrient_id": "vitamin_k",
+   "position": 10,
+   "sku_id": "IH99900",
+   "is_combo_from_other": true,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_k2",
+   "collection_name_en": "Vitamin K2",
+   "nutrient_id": "vitamin_k",
+   "position": 11,
+   "sku_id": "IH70098",
+   "is_combo_from_other": true,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_k2",
+   "collection_name_en": "Vitamin K2",
+   "nutrient_id": "vitamin_k",
+   "position": 12,
+   "sku_id": "IH66953",
+   "is_combo_from_other": true,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_k2",
+   "collection_name_en": "Vitamin K2",
+   "nutrient_id": "vitamin_k",
+   "position": 13,
+   "sku_id": "IH107253",
+   "is_combo_from_other": true,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "b_complex",
+   "collection_name_en": "B-complex",
+   "nutrient_id": null,
+   "position": 1,
+   "sku_id": "IH110",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "b_complex",
+   "collection_name_en": "B-complex",
+   "nutrient_id": null,
+   "position": 2,
+   "sku_id": "IH67058",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "b_complex",
+   "collection_name_en": "B-complex",
+   "nutrient_id": null,
+   "position": 3,
+   "sku_id": "IH18791",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "b_complex",
+   "collection_name_en": "B-complex",
+   "nutrient_id": null,
+   "position": 4,
+   "sku_id": "IH19437",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "b_complex",
+   "collection_name_en": "B-complex",
+   "nutrient_id": null,
+   "position": 5,
+   "sku_id": "IH69612",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "b_complex",
+   "collection_name_en": "B-complex",
+   "nutrient_id": null,
+   "position": 6,
+   "sku_id": "IH14591",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "b_complex",
+   "collection_name_en": "B-complex",
+   "nutrient_id": null,
+   "position": 7,
+   "sku_id": "IH67051",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "b_complex",
+   "collection_name_en": "B-complex",
+   "nutrient_id": null,
+   "position": 8,
+   "sku_id": "IH46039",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "b_complex",
+   "collection_name_en": "B-complex",
+   "nutrient_id": null,
+   "position": 9,
+   "sku_id": "IH46501",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "kids"
+  },
+  {
+   "collection_id": "b_complex",
+   "collection_name_en": "B-complex",
+   "nutrient_id": null,
+   "position": 10,
+   "sku_id": "IH50940",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_b1",
+   "collection_name_en": "Vitamin B1 (Thiamin)",
+   "nutrient_id": "vitamin_b1",
+   "position": 1,
+   "sku_id": "IH7456",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_b1",
+   "collection_name_en": "Vitamin B1 (Thiamin)",
+   "nutrient_id": "vitamin_b1",
+   "position": 2,
+   "sku_id": "IH403",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_b1",
+   "collection_name_en": "Vitamin B1 (Thiamin)",
+   "nutrient_id": "vitamin_b1",
+   "position": 3,
+   "sku_id": "IH1822",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_b1",
+   "collection_name_en": "Vitamin B1 (Thiamin)",
+   "nutrient_id": "vitamin_b1",
+   "position": 4,
+   "sku_id": "IH980",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_b1",
+   "collection_name_en": "Vitamin B1 (Thiamin)",
+   "nutrient_id": "vitamin_b1",
+   "position": 5,
+   "sku_id": "IH50203",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_b1",
+   "collection_name_en": "Vitamin B1 (Thiamin)",
+   "nutrient_id": "vitamin_b1",
+   "position": 6,
+   "sku_id": "IH8976",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_b2",
+   "collection_name_en": "Vitamin B2 (Riboflavin)",
+   "nutrient_id": "vitamin_b2",
+   "position": 1,
+   "sku_id": "IH10170",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_b2",
+   "collection_name_en": "Vitamin B2 (Riboflavin)",
+   "nutrient_id": "vitamin_b2",
+   "position": 2,
+   "sku_id": "IH78240",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_b2",
+   "collection_name_en": "Vitamin B2 (Riboflavin)",
+   "nutrient_id": "vitamin_b2",
+   "position": 3,
+   "sku_id": "IH108557",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_b2",
+   "collection_name_en": "Vitamin B2 (Riboflavin)",
+   "nutrient_id": "vitamin_b2",
+   "position": 4,
+   "sku_id": "IH1825",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_b2",
+   "collection_name_en": "Vitamin B2 (Riboflavin)",
+   "nutrient_id": "vitamin_b2",
+   "position": 5,
+   "sku_id": "IH7460",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_b3",
+   "collection_name_en": "Vitamin B3 (Niacin)",
+   "nutrient_id": "vitamin_b3",
+   "position": 1,
+   "sku_id": "IH109407",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_b3",
+   "collection_name_en": "Vitamin B3 (Niacin)",
+   "nutrient_id": "vitamin_b3",
+   "position": 2,
+   "sku_id": "IH16365",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_b3",
+   "collection_name_en": "Vitamin B3 (Niacin)",
+   "nutrient_id": "vitamin_b3",
+   "position": 3,
+   "sku_id": "IH48592",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_b3",
+   "collection_name_en": "Vitamin B3 (Niacin)",
+   "nutrient_id": "vitamin_b3",
+   "position": 4,
+   "sku_id": "IH693",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_b3",
+   "collection_name_en": "Vitamin B3 (Niacin)",
+   "nutrient_id": "vitamin_b3",
+   "position": 5,
+   "sku_id": "IH104104",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "choline",
+   "collection_name_en": "Choline (B4)",
+   "nutrient_id": "choline",
+   "position": 1,
+   "sku_id": "IH1882",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "choline",
+   "collection_name_en": "Choline (B4)",
+   "nutrient_id": "choline",
+   "position": 2,
+   "sku_id": "IH1631",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "choline",
+   "collection_name_en": "Choline (B4)",
+   "nutrient_id": "choline",
+   "position": 3,
+   "sku_id": "IH1877",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "choline",
+   "collection_name_en": "Choline (B4)",
+   "nutrient_id": "choline",
+   "position": 4,
+   "sku_id": "IH15708",
+   "is_combo_from_other": true,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "choline",
+   "collection_name_en": "Choline (B4)",
+   "nutrient_id": "choline",
+   "position": 5,
+   "sku_id": "IH15507",
+   "is_combo_from_other": true,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "choline",
+   "collection_name_en": "Choline (B4)",
+   "nutrient_id": "choline",
+   "position": 6,
+   "sku_id": "IH513",
+   "is_combo_from_other": true,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "choline",
+   "collection_name_en": "Choline (B4)",
+   "nutrient_id": "choline",
+   "position": 7,
+   "sku_id": "IH88811",
+   "is_combo_from_other": true,
+   "section_en": null,
+   "audience_label": "prenatal"
+  },
+  {
+   "collection_id": "vitamin_b5",
+   "collection_name_en": "Vitamin B5 (Pantothenic acid)",
+   "nutrient_id": "vitamin_b5",
+   "position": 1,
+   "sku_id": "IH73728",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_b5",
+   "collection_name_en": "Vitamin B5 (Pantothenic acid)",
+   "nutrient_id": "vitamin_b5",
+   "position": 2,
+   "sku_id": "IH10707",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_b5",
+   "collection_name_en": "Vitamin B5 (Pantothenic acid)",
+   "nutrient_id": "vitamin_b5",
+   "position": 3,
+   "sku_id": "IH72611",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_b5",
+   "collection_name_en": "Vitamin B5 (Pantothenic acid)",
+   "nutrient_id": "vitamin_b5",
+   "position": 4,
+   "sku_id": "IH2010",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_b5",
+   "collection_name_en": "Vitamin B5 (Pantothenic acid)",
+   "nutrient_id": "vitamin_b5",
+   "position": 5,
+   "sku_id": "IH276",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_b5",
+   "collection_name_en": "Vitamin B5 (Pantothenic acid)",
+   "nutrient_id": "vitamin_b5",
+   "position": 6,
+   "sku_id": "IH21294",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_b6",
+   "collection_name_en": "Vitamin B6",
+   "nutrient_id": "vitamin_b6",
+   "position": 1,
+   "sku_id": "IH78096",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_b6",
+   "collection_name_en": "Vitamin B6",
+   "nutrient_id": "vitamin_b6",
+   "position": 2,
+   "sku_id": "IH1642",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_b6",
+   "collection_name_en": "Vitamin B6",
+   "nutrient_id": "vitamin_b6",
+   "position": 3,
+   "sku_id": "IH18472",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_b6",
+   "collection_name_en": "Vitamin B6",
+   "nutrient_id": "vitamin_b6",
+   "position": 4,
+   "sku_id": "IH8902",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_b6",
+   "collection_name_en": "Vitamin B6",
+   "nutrient_id": "vitamin_b6",
+   "position": 5,
+   "sku_id": "IH397",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_b6",
+   "collection_name_en": "Vitamin B6",
+   "nutrient_id": "vitamin_b6",
+   "position": 6,
+   "sku_id": "IH14132",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_b6",
+   "collection_name_en": "Vitamin B6",
+   "nutrient_id": "vitamin_b6",
+   "position": 7,
+   "sku_id": "IH103002",
+   "is_combo_from_other": true,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_b6",
+   "collection_name_en": "Vitamin B6",
+   "nutrient_id": "vitamin_b6",
+   "position": 8,
+   "sku_id": "IH139040",
+   "is_combo_from_other": true,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_b6",
+   "collection_name_en": "Vitamin B6",
+   "nutrient_id": "vitamin_b6",
+   "position": 9,
+   "sku_id": "IH14071",
+   "is_combo_from_other": true,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_b6",
+   "collection_name_en": "Vitamin B6",
+   "nutrient_id": "vitamin_b6",
+   "position": 10,
+   "sku_id": "IH146163",
+   "is_combo_from_other": true,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "biotin",
+   "collection_name_en": "Biotin (B7)",
+   "nutrient_id": "biotin",
+   "position": 1,
+   "sku_id": "IH25842",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "biotin",
+   "collection_name_en": "Biotin (B7)",
+   "nutrient_id": "biotin",
+   "position": 2,
+   "sku_id": "IH59924",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "biotin",
+   "collection_name_en": "Biotin (B7)",
+   "nutrient_id": "biotin",
+   "position": 3,
+   "sku_id": "IH3319",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "biotin",
+   "collection_name_en": "Biotin (B7)",
+   "nutrient_id": "biotin",
+   "position": 4,
+   "sku_id": "IH47450",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "biotin",
+   "collection_name_en": "Biotin (B7)",
+   "nutrient_id": "biotin",
+   "position": 5,
+   "sku_id": "IH76865",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "biotin",
+   "collection_name_en": "Biotin (B7)",
+   "nutrient_id": "biotin",
+   "position": 6,
+   "sku_id": "IH71104",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_a",
+   "collection_name_en": "Vitamin A",
+   "nutrient_id": "vitamin_a",
+   "position": 1,
+   "sku_id": "IH2526",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_a",
+   "collection_name_en": "Vitamin A",
+   "nutrient_id": "vitamin_a",
+   "position": 2,
+   "sku_id": "IH79368",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_a",
+   "collection_name_en": "Vitamin A",
+   "nutrient_id": "vitamin_a",
+   "position": 3,
+   "sku_id": "IH10134",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_a",
+   "collection_name_en": "Vitamin A",
+   "nutrient_id": "vitamin_a",
+   "position": 4,
+   "sku_id": "IH985",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_a",
+   "collection_name_en": "Vitamin A",
+   "nutrient_id": "vitamin_a",
+   "position": 5,
+   "sku_id": "IH11192",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_a",
+   "collection_name_en": "Vitamin A",
+   "nutrient_id": "vitamin_a",
+   "position": 6,
+   "sku_id": "IH17611",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_a",
+   "collection_name_en": "Vitamin A",
+   "nutrient_id": "vitamin_a",
+   "position": 7,
+   "sku_id": "IH8422",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_a",
+   "collection_name_en": "Vitamin A",
+   "nutrient_id": "vitamin_a",
+   "position": 8,
+   "sku_id": "IH15282",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_a",
+   "collection_name_en": "Vitamin A",
+   "nutrient_id": "vitamin_a",
+   "position": 9,
+   "sku_id": "IH111032",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_a",
+   "collection_name_en": "Vitamin A",
+   "nutrient_id": "vitamin_a",
+   "position": 10,
+   "sku_id": "IH81370",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_a",
+   "collection_name_en": "Vitamin A",
+   "nutrient_id": "vitamin_a",
+   "position": 11,
+   "sku_id": "IH13446",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_c",
+   "collection_name_en": "Vitamin C",
+   "nutrient_id": "vitamin_c",
+   "position": 1,
+   "sku_id": "IH84569",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_c",
+   "collection_name_en": "Vitamin C",
+   "nutrient_id": "vitamin_c",
+   "position": 2,
+   "sku_id": "IH48001",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_c",
+   "collection_name_en": "Vitamin C",
+   "nutrient_id": "vitamin_c",
+   "position": 3,
+   "sku_id": "IH90757",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_c",
+   "collection_name_en": "Vitamin C",
+   "nutrient_id": "vitamin_c",
+   "position": 4,
+   "sku_id": "IH70643",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_c",
+   "collection_name_en": "Vitamin C",
+   "nutrient_id": "vitamin_c",
+   "position": 5,
+   "sku_id": "IH986",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_c",
+   "collection_name_en": "Vitamin C",
+   "nutrient_id": "vitamin_c",
+   "position": 6,
+   "sku_id": "IH6356",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_c",
+   "collection_name_en": "Vitamin C",
+   "nutrient_id": "vitamin_c",
+   "position": 7,
+   "sku_id": "IH69610",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_c",
+   "collection_name_en": "Vitamin C",
+   "nutrient_id": "vitamin_c",
+   "position": 8,
+   "sku_id": "IH10241",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_c",
+   "collection_name_en": "Vitamin C",
+   "nutrient_id": "vitamin_c",
+   "position": 9,
+   "sku_id": "IH46033",
+   "is_combo_from_other": true,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_c",
+   "collection_name_en": "Vitamin C",
+   "nutrient_id": "vitamin_c",
+   "position": 10,
+   "sku_id": "IH55352",
+   "is_combo_from_other": true,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_e",
+   "collection_name_en": "Vitamin E",
+   "nutrient_id": "vitamin_e",
+   "position": 1,
+   "sku_id": "IH48628",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_e",
+   "collection_name_en": "Vitamin E",
+   "nutrient_id": "vitamin_e",
+   "position": 2,
+   "sku_id": "IH105833",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_e",
+   "collection_name_en": "Vitamin E",
+   "nutrient_id": "vitamin_e",
+   "position": 3,
+   "sku_id": "IH9580",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_e",
+   "collection_name_en": "Vitamin E",
+   "nutrient_id": "vitamin_e",
+   "position": 4,
+   "sku_id": "IH13618",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_e",
+   "collection_name_en": "Vitamin E",
+   "nutrient_id": "vitamin_e",
+   "position": 5,
+   "sku_id": "IH2789",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_e",
+   "collection_name_en": "Vitamin E",
+   "nutrient_id": "vitamin_e",
+   "position": 6,
+   "sku_id": "IH16717",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_e",
+   "collection_name_en": "Vitamin E",
+   "nutrient_id": "vitamin_e",
+   "position": 7,
+   "sku_id": "IH9902",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_e",
+   "collection_name_en": "Vitamin E",
+   "nutrient_id": "vitamin_e",
+   "position": 8,
+   "sku_id": "IH41721",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_e",
+   "collection_name_en": "Vitamin E",
+   "nutrient_id": "vitamin_e",
+   "position": 9,
+   "sku_id": "IH98301",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "vitamin_e",
+   "collection_name_en": "Vitamin E",
+   "nutrient_id": "vitamin_e",
+   "position": 10,
+   "sku_id": "IH46682",
+   "is_combo_from_other": true,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "potassium",
+   "collection_name_en": "Potassium",
+   "nutrient_id": "potassium",
+   "position": 1,
+   "sku_id": "IH89534",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "potassium",
+   "collection_name_en": "Potassium",
+   "nutrient_id": "potassium",
+   "position": 2,
+   "sku_id": "IH42445",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "potassium",
+   "collection_name_en": "Potassium",
+   "nutrient_id": "potassium",
+   "position": 3,
+   "sku_id": "IH26012",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "potassium",
+   "collection_name_en": "Potassium",
+   "nutrient_id": "potassium",
+   "position": 4,
+   "sku_id": "IH18693",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "potassium",
+   "collection_name_en": "Potassium",
+   "nutrient_id": "potassium",
+   "position": 5,
+   "sku_id": "IH13061",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "potassium",
+   "collection_name_en": "Potassium",
+   "nutrient_id": "potassium",
+   "position": 6,
+   "sku_id": "IH111029",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "potassium",
+   "collection_name_en": "Potassium",
+   "nutrient_id": "potassium",
+   "position": 7,
+   "sku_id": "IH767",
+   "is_combo_from_other": true,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "iodine",
+   "collection_name_en": "Iodine",
+   "nutrient_id": "iodine",
+   "position": 1,
+   "sku_id": "IH78874",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "iodine",
+   "collection_name_en": "Iodine",
+   "nutrient_id": "iodine",
+   "position": 2,
+   "sku_id": "IH22640",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "iodine",
+   "collection_name_en": "Iodine",
+   "nutrient_id": "iodine",
+   "position": 3,
+   "sku_id": "IH68283",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "iodine",
+   "collection_name_en": "Iodine",
+   "nutrient_id": "iodine",
+   "position": 4,
+   "sku_id": "IH85846",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "iodine",
+   "collection_name_en": "Iodine",
+   "nutrient_id": "iodine",
+   "position": 5,
+   "sku_id": "IH767",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "iodine",
+   "collection_name_en": "Iodine",
+   "nutrient_id": "iodine",
+   "position": 6,
+   "sku_id": "IH55644",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "iodine",
+   "collection_name_en": "Iodine",
+   "nutrient_id": "iodine",
+   "position": 7,
+   "sku_id": "IH78779",
+   "is_combo_from_other": true,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "chromium",
+   "collection_name_en": "Chromium",
+   "nutrient_id": "chromium",
+   "position": 1,
+   "sku_id": "IH2553",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "chromium",
+   "collection_name_en": "Chromium",
+   "nutrient_id": "chromium",
+   "position": 2,
+   "sku_id": "IH47302",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "chromium",
+   "collection_name_en": "Chromium",
+   "nutrient_id": "chromium",
+   "position": 3,
+   "sku_id": "IH41340",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "chromium",
+   "collection_name_en": "Chromium",
+   "nutrient_id": "chromium",
+   "position": 4,
+   "sku_id": "IH13955",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "chromium",
+   "collection_name_en": "Chromium",
+   "nutrient_id": "chromium",
+   "position": 5,
+   "sku_id": "IH126700",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "chromium",
+   "collection_name_en": "Chromium",
+   "nutrient_id": "chromium",
+   "position": 6,
+   "sku_id": "IH1473",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "chromium",
+   "collection_name_en": "Chromium",
+   "nutrient_id": "chromium",
+   "position": 7,
+   "sku_id": "IH18450",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "chromium",
+   "collection_name_en": "Chromium",
+   "nutrient_id": "chromium",
+   "position": 8,
+   "sku_id": "IH499",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "chromium",
+   "collection_name_en": "Chromium",
+   "nutrient_id": "chromium",
+   "position": 9,
+   "sku_id": "IH7258",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "chromium",
+   "collection_name_en": "Chromium",
+   "nutrient_id": "chromium",
+   "position": 10,
+   "sku_id": "IH29324",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "sport_multi",
+   "collection_name_en": "Sport multivitamins",
+   "nutrient_id": null,
+   "position": 1,
+   "sku_id": "IH68550",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "men"
+  },
+  {
+   "collection_id": "sport_multi",
+   "collection_name_en": "Sport multivitamins",
+   "nutrient_id": null,
+   "position": 2,
+   "sku_id": "IH117513",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "sport_multi",
+   "collection_name_en": "Sport multivitamins",
+   "nutrient_id": null,
+   "position": 3,
+   "sku_id": "IH49050",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "men"
+  },
+  {
+   "collection_id": "sport_multi",
+   "collection_name_en": "Sport multivitamins",
+   "nutrient_id": null,
+   "position": 4,
+   "sku_id": "IH102579",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "men"
+  },
+  {
+   "collection_id": "sport_multi",
+   "collection_name_en": "Sport multivitamins",
+   "nutrient_id": null,
+   "position": 5,
+   "sku_id": "IH147649",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "men"
+  },
+  {
+   "collection_id": "sport_multi",
+   "collection_name_en": "Sport multivitamins",
+   "nutrient_id": null,
+   "position": 6,
+   "sku_id": "IH80773",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "men"
+  },
+  {
+   "collection_id": "sport_multi",
+   "collection_name_en": "Sport multivitamins",
+   "nutrient_id": null,
+   "position": 7,
+   "sku_id": "IH65950",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "men"
+  },
+  {
+   "collection_id": "sport_multi",
+   "collection_name_en": "Sport multivitamins",
+   "nutrient_id": null,
+   "position": 8,
+   "sku_id": "IH38973",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "women"
+  },
+  {
+   "collection_id": "sport_multi",
+   "collection_name_en": "Sport multivitamins",
+   "nutrient_id": null,
+   "position": 9,
+   "sku_id": "IH84667",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "women"
+  },
+  {
+   "collection_id": "sport_multi",
+   "collection_name_en": "Sport multivitamins",
+   "nutrient_id": null,
+   "position": 10,
+   "sku_id": "IH157179",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "sport_multi",
+   "collection_name_en": "Sport multivitamins",
+   "nutrient_id": null,
+   "position": 11,
+   "sku_id": "IH143338",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "women"
+  },
+  {
+   "collection_id": "sport_multi",
+   "collection_name_en": "Sport multivitamins",
+   "nutrient_id": null,
+   "position": 12,
+   "sku_id": "IH149339",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "men_multi",
+   "collection_name_en": "Men multivitamins",
+   "nutrient_id": null,
+   "position": 1,
+   "sku_id": "IH26029",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "men"
+  },
+  {
+   "collection_id": "men_multi",
+   "collection_name_en": "Men multivitamins",
+   "nutrient_id": null,
+   "position": 2,
+   "sku_id": "IH125282",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "men"
+  },
+  {
+   "collection_id": "men_multi",
+   "collection_name_en": "Men multivitamins",
+   "nutrient_id": null,
+   "position": 3,
+   "sku_id": "IH23364",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "men"
+  },
+  {
+   "collection_id": "men_multi",
+   "collection_name_en": "Men multivitamins",
+   "nutrient_id": null,
+   "position": 4,
+   "sku_id": "IH37794",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "men"
+  },
+  {
+   "collection_id": "men_multi",
+   "collection_name_en": "Men multivitamins",
+   "nutrient_id": null,
+   "position": 5,
+   "sku_id": "IH12057",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "men"
+  },
+  {
+   "collection_id": "men_multi",
+   "collection_name_en": "Men multivitamins",
+   "nutrient_id": null,
+   "position": 6,
+   "sku_id": "IH58123",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "men"
+  },
+  {
+   "collection_id": "men_multi",
+   "collection_name_en": "Men multivitamins",
+   "nutrient_id": null,
+   "position": 7,
+   "sku_id": "IH67723",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "men"
+  },
+  {
+   "collection_id": "men_multi",
+   "collection_name_en": "Men multivitamins",
+   "nutrient_id": null,
+   "position": 8,
+   "sku_id": "IH104048",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "men"
+  },
+  {
+   "collection_id": "kids_multi",
+   "collection_name_en": "Kids multivitamins",
+   "nutrient_id": null,
+   "position": 1,
+   "sku_id": "IH46501",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "kids"
+  },
+  {
+   "collection_id": "kids_multi",
+   "collection_name_en": "Kids multivitamins",
+   "nutrient_id": null,
+   "position": 2,
+   "sku_id": "IH86730",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "kids"
+  },
+  {
+   "collection_id": "kids_multi",
+   "collection_name_en": "Kids multivitamins",
+   "nutrient_id": null,
+   "position": 3,
+   "sku_id": "IH6368",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "kids"
+  },
+  {
+   "collection_id": "kids_multi",
+   "collection_name_en": "Kids multivitamins",
+   "nutrient_id": null,
+   "position": 4,
+   "sku_id": "IH99568",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "kids"
+  },
+  {
+   "collection_id": "kids_multi",
+   "collection_name_en": "Kids multivitamins",
+   "nutrient_id": null,
+   "position": 5,
+   "sku_id": "IH40504",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "kids"
+  },
+  {
+   "collection_id": "kids_multi",
+   "collection_name_en": "Kids multivitamins",
+   "nutrient_id": null,
+   "position": 6,
+   "sku_id": "IH85354",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "kids"
+  },
+  {
+   "collection_id": "kids_multi",
+   "collection_name_en": "Kids multivitamins",
+   "nutrient_id": null,
+   "position": 7,
+   "sku_id": "IH122226",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "kids"
+  },
+  {
+   "collection_id": "prenatal_multi",
+   "collection_name_en": "Prenatal multivitamins",
+   "nutrient_id": null,
+   "position": 1,
+   "sku_id": "IH66136",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "prenatal"
+  },
+  {
+   "collection_id": "prenatal_multi",
+   "collection_name_en": "Prenatal multivitamins",
+   "nutrient_id": null,
+   "position": 2,
+   "sku_id": "IH18131",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "prenatal"
+  },
+  {
+   "collection_id": "prenatal_multi",
+   "collection_name_en": "Prenatal multivitamins",
+   "nutrient_id": null,
+   "position": 3,
+   "sku_id": "IH106213",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "prenatal"
+  },
+  {
+   "collection_id": "prenatal_multi",
+   "collection_name_en": "Prenatal multivitamins",
+   "nutrient_id": null,
+   "position": 4,
+   "sku_id": "IH39196",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "prenatal"
+  },
+  {
+   "collection_id": "prenatal_multi",
+   "collection_name_en": "Prenatal multivitamins",
+   "nutrient_id": null,
+   "position": 5,
+   "sku_id": "IH68266",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "prenatal"
+  },
+  {
+   "collection_id": "prenatal_multi",
+   "collection_name_en": "Prenatal multivitamins",
+   "nutrient_id": null,
+   "position": 6,
+   "sku_id": "IH92974",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "prenatal"
+  },
+  {
+   "collection_id": "prenatal_multi",
+   "collection_name_en": "Prenatal multivitamins",
+   "nutrient_id": null,
+   "position": 7,
+   "sku_id": "IH109871",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "prenatal"
+  },
+  {
+   "collection_id": "prenatal_multi",
+   "collection_name_en": "Prenatal multivitamins",
+   "nutrient_id": null,
+   "position": 8,
+   "sku_id": "IH126712",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "prenatal"
+  },
+  {
+   "collection_id": "senior_multi",
+   "collection_name_en": "Senior multivitamins (50+)",
+   "nutrient_id": null,
+   "position": 1,
+   "sku_id": "IH102918",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "women"
+  },
+  {
+   "collection_id": "senior_multi",
+   "collection_name_en": "Senior multivitamins (50+)",
+   "nutrient_id": null,
+   "position": 2,
+   "sku_id": "IH97677",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "women"
+  },
+  {
+   "collection_id": "senior_multi",
+   "collection_name_en": "Senior multivitamins (50+)",
+   "nutrient_id": null,
+   "position": 3,
+   "sku_id": "IH125286",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "women"
+  },
+  {
+   "collection_id": "senior_multi",
+   "collection_name_en": "Senior multivitamins (50+)",
+   "nutrient_id": null,
+   "position": 4,
+   "sku_id": "IH125288",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "men"
+  },
+  {
+   "collection_id": "senior_multi",
+   "collection_name_en": "Senior multivitamins (50+)",
+   "nutrient_id": null,
+   "position": 5,
+   "sku_id": "IH41887",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "women"
+  },
+  {
+   "collection_id": "senior_multi",
+   "collection_name_en": "Senior multivitamins (50+)",
+   "nutrient_id": null,
+   "position": 6,
+   "sku_id": "IH41886",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "men"
+  },
+  {
+   "collection_id": "senior_multi",
+   "collection_name_en": "Senior multivitamins (50+)",
+   "nutrient_id": null,
+   "position": 7,
+   "sku_id": "IH12557",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "senior_multi",
+   "collection_name_en": "Senior multivitamins (50+)",
+   "nutrient_id": null,
+   "position": 8,
+   "sku_id": "IH43835",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "women"
+  },
+  {
+   "collection_id": "senior_multi",
+   "collection_name_en": "Senior multivitamins (50+)",
+   "nutrient_id": null,
+   "position": 9,
+   "sku_id": "IH102917",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "men"
+  },
+  {
+   "collection_id": "senior_multi",
+   "collection_name_en": "Senior multivitamins (50+)",
+   "nutrient_id": null,
+   "position": 10,
+   "sku_id": "IH85000",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "women"
+  },
+  {
+   "collection_id": "omega_3",
+   "collection_name_en": "Omega-3",
+   "nutrient_id": "omega_3",
+   "position": 1,
+   "sku_id": "IH22426",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "omega_3",
+   "collection_name_en": "Omega-3",
+   "nutrient_id": "omega_3",
+   "position": 2,
+   "sku_id": "IH2801",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "omega_3",
+   "collection_name_en": "Omega-3",
+   "nutrient_id": "omega_3",
+   "position": 3,
+   "sku_id": "IH82845",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "omega_3",
+   "collection_name_en": "Omega-3",
+   "nutrient_id": "omega_3",
+   "position": 4,
+   "sku_id": "IH72037",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "omega_3",
+   "collection_name_en": "Omega-3",
+   "nutrient_id": "omega_3",
+   "position": 5,
+   "sku_id": "IH12949",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "omega_3",
+   "collection_name_en": "Omega-3",
+   "nutrient_id": "omega_3",
+   "position": 6,
+   "sku_id": "IH68171",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "kids"
+  },
+  {
+   "collection_id": "omega_3",
+   "collection_name_en": "Omega-3",
+   "nutrient_id": "omega_3",
+   "position": 7,
+   "sku_id": "IH91972",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "omega_3",
+   "collection_name_en": "Omega-3",
+   "nutrient_id": "omega_3",
+   "position": 8,
+   "sku_id": "IH88811",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": "prenatal"
+  },
+  {
+   "collection_id": "omega_3",
+   "collection_name_en": "Omega-3",
+   "nutrient_id": "omega_3",
+   "position": 9,
+   "sku_id": "IH94911",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "omega_3",
+   "collection_name_en": "Omega-3",
+   "nutrient_id": "omega_3",
+   "position": 10,
+   "sku_id": "IH146057",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "omega_3",
+   "collection_name_en": "Omega-3",
+   "nutrient_id": "omega_3",
+   "position": 11,
+   "sku_id": "IH85477",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "omega_3",
+   "collection_name_en": "Omega-3",
+   "nutrient_id": "omega_3",
+   "position": 12,
+   "sku_id": "IH2647",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "collagen",
+   "collection_name_en": "Collagen",
+   "nutrient_id": "collagen",
+   "position": 1,
+   "sku_id": "IH64902",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "collagen",
+   "collection_name_en": "Collagen",
+   "nutrient_id": "collagen",
+   "position": 2,
+   "sku_id": "IH55352",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "collagen",
+   "collection_name_en": "Collagen",
+   "nutrient_id": "collagen",
+   "position": 3,
+   "sku_id": "IH6074",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "collagen",
+   "collection_name_en": "Collagen",
+   "nutrient_id": "collagen",
+   "position": 4,
+   "sku_id": "IH71106",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "collagen",
+   "collection_name_en": "Collagen",
+   "nutrient_id": "collagen",
+   "position": 5,
+   "sku_id": "IH65390",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "collagen",
+   "collection_name_en": "Collagen",
+   "nutrient_id": "collagen",
+   "position": 6,
+   "sku_id": "IH113270",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "collagen",
+   "collection_name_en": "Collagen",
+   "nutrient_id": "collagen",
+   "position": 7,
+   "sku_id": "IH8368",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "collagen",
+   "collection_name_en": "Collagen",
+   "nutrient_id": "collagen",
+   "position": 8,
+   "sku_id": "IH16572",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "collagen",
+   "collection_name_en": "Collagen",
+   "nutrient_id": "collagen",
+   "position": 9,
+   "sku_id": "IH15926",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "collagen",
+   "collection_name_en": "Collagen",
+   "nutrient_id": "collagen",
+   "position": 10,
+   "sku_id": "IH1032",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  },
+  {
+   "collection_id": "collagen",
+   "collection_name_en": "Collagen",
+   "nutrient_id": "collagen",
+   "position": 11,
+   "sku_id": "IH43040",
+   "is_combo_from_other": false,
+   "section_en": null,
+   "audience_label": null
+  }
+ ]
+}
